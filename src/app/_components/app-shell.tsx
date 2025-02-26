@@ -1,10 +1,20 @@
 "use client";
 
-import { AppShell, Burger, Group, Text } from "@mantine/core";
-import { useDisclosure } from "@mantine/hooks";
+import {
+  AppShell,
+  Badge,
+  Burger,
+  Card,
+  Group,
+  HoverCard,
+  Text,
+} from "@mantine/core";
+import { useClipboard, useDisclosure } from "@mantine/hooks";
 import { QueryClientProvider, useQueryClient } from "@tanstack/react-query";
 import { useSession } from "next-auth/react";
 import type { ReactNode } from "react";
+import { useWebsocket } from "./websocket-provider";
+import { notifications } from "@mantine/notifications";
 
 export function AppLayout(props: { children: ReactNode }) {
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
@@ -13,6 +23,10 @@ export function AppLayout(props: { children: ReactNode }) {
   const queryClient = useQueryClient();
 
   const session = useSession();
+
+  const { socket, isConnected, transport } = useWebsocket();
+
+  const clipboard = useClipboard();
 
   return (
     <QueryClientProvider client={queryClient}>
@@ -42,6 +56,46 @@ export function AppLayout(props: { children: ReactNode }) {
             <Text>
               {session.status === "authenticated" && session.data.user.name}
             </Text>
+            <Group ml={"auto"}>
+              <HoverCard>
+                <HoverCard.Target>
+                  <Badge color={isConnected ? "green" : "red"}>
+                    <Text size="xs">
+                      {isConnected ? "Connected" : "Not Connected"}
+                    </Text>
+                  </Badge>
+                </HoverCard.Target>
+                <HoverCard.Dropdown>
+                  <Group>
+                    <Text>Socket connected:</Text>
+                    <Text ml={"auto"}>{`${isConnected.valueOf()}`}</Text>
+                  </Group>
+                  <Group>
+                    <Text>Transport:</Text>
+                    <Text ml={"auto"}>{transport}</Text>
+                  </Group>
+                  <Group>
+                    <Text>Socket ID:</Text>
+                    <Text
+                      onClick={() => {
+                        clipboard.copy(socket.id);
+                        notifications.show({
+                          message: "Copied!",
+                          autoClose: 2000,
+                        });
+                      }}
+                      style={{
+                        cursor: "pointer",
+                      }}
+                      c={clipboard.copied ? "green" : ""}
+                      ml={"auto"}
+                    >
+                      {socket.id}
+                    </Text>
+                  </Group>
+                </HoverCard.Dropdown>
+              </HoverCard>
+            </Group>
           </Group>
         </AppShell.Header>
         <AppShell.Navbar p="md"></AppShell.Navbar>

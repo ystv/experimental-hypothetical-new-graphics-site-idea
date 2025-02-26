@@ -5,7 +5,9 @@ import {
   protectedProcedure,
   publicProcedure,
 } from "@/server/api/trpc";
-import { io } from "@/server/socket";
+// import { io } from "@/server/socket";
+import { Server } from "socket.io";
+import { serverGlobals } from "@/server/socket";
 
 export const questionRouter = createTRPCRouter({
   getAll: publicProcedure
@@ -51,7 +53,9 @@ export const questionRouter = createTRPCRouter({
         },
       });
 
-      io.in("authenticatedUsers").emit(`update:questions:${input.output_id}`);
+      serverGlobals.io
+        .in("authenticatedUsers")
+        .emit(`update:questions:${input.output_id}`);
     }),
 
   delete: protectedProcedure
@@ -78,8 +82,12 @@ export const questionRouter = createTRPCRouter({
         },
       });
 
-      io.in("authenticatedUsers").emit(`update:questions:${input.output_id}`);
-      io.in("authenticatedUsers").emit(`update:output:${input.output_id}`);
+      serverGlobals.io
+        .in("authenticatedUsers")
+        .emit(`update:questions:${input.output_id}`);
+      serverGlobals.io
+        .in("authenticatedUsers")
+        .emit(`update:output:${input.output_id}`);
     }),
 
   getSecretMessage: protectedProcedure.query(() => {

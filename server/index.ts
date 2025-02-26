@@ -16,8 +16,9 @@ const app = next({
 });
 const handler = app.getRequestHandler();
 
-var io: Server;
+let io: Server;
 
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
 app.prepare().then(async () => {
   const httpServer = await prepareHttpServer(handler);
 
@@ -26,9 +27,11 @@ app.prepare().then(async () => {
   io = new Server(httpServer);
   (globalThis as unknown as { io: Server }).io = io;
 
+  // eslint-disable-next-line @typescript-eslint/no-misused-promises
   io.use(authenticateSocket);
 
   io.on("connection", async (socket) => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
     if (socket.data.auth.invalidSession === true) {
       socket.emit("invalidSession");
     }

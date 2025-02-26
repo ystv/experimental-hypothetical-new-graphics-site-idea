@@ -1,4 +1,5 @@
 import "@mantine/core/styles.css";
+import "@mantine/notifications/styles.css";
 
 import { type Metadata } from "next";
 
@@ -12,6 +13,7 @@ import { AppLayout } from "../_components/app-shell";
 import { SessionProvider } from "next-auth/react";
 import { WebsocketProvider } from "../_components/websocket-provider";
 import { auth, signIn } from "@/server/auth";
+import { Notifications } from "@mantine/notifications";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -38,6 +40,7 @@ export default async function RootLayout({
           <WebsocketProvider>
             <TRPCReactProvider>
               <MantineProvider defaultColorScheme="auto">
+                <Notifications />
                 <AppLayout>{children}</AppLayout>
               </MantineProvider>
             </TRPCReactProvider>

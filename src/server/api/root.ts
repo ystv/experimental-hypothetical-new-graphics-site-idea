@@ -3,6 +3,7 @@ import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
 import { fullscreenRouter } from "./routers/fullscreen";
 import { questionRouter } from "./routers/question";
 import { outputRouter } from "./routers/output";
+import { ydcRouter } from "./routers/ydc";
 
 /**
  * This is the primary router for your server.
@@ -14,6 +15,7 @@ export const appRouter = createTRPCRouter({
   fullscreen: fullscreenRouter,
   question: questionRouter,
   output: outputRouter,
+  ydc: ydcRouter,
 });
 
 // export type definition of API

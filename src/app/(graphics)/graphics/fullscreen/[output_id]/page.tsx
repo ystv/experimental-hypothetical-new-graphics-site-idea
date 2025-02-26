@@ -10,9 +10,14 @@ import { z } from "zod";
 export default function FullscreenOutputIDPage() {
   const params = z.object({ output_id: z.coerce.number() }).parse(useParams());
 
-  const currentOutputQuestion = api.output.getCurrent.useQuery({
-    output_id: params.output_id,
-  });
+  const currentOutputQuestion = api.output.getCurrent.useQuery(
+    {
+      output_id: params.output_id,
+    },
+    {
+      refetchInterval: 5000,
+    },
+  );
 
   const { socket } = useWebsocket();
 

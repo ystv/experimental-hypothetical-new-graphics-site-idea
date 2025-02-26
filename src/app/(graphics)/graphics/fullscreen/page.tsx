@@ -1,10 +1,11 @@
 "use client";
 
+import { useWebsocket } from "@/app/_components/websocket-provider";
 import { api } from "@/trpc/react";
 import Image from "next/image";
 
 export default function FullscreenText() {
-  const textQuery = api.fullscreen.getText.useQuery();
+  const { socket, isConnected, transport } = useWebsocket();
 
   return (
     <div
@@ -50,7 +51,12 @@ export default function FullscreenText() {
             textAlign: "center",
           }}
         >
-          {textQuery.data?.text}
+          <p style={{ margin: 0 }}>Socket connected:</p>
+          <p style={{ margin: 0 }}>{`${isConnected.valueOf()}`}</p>
+          <p style={{ margin: 0 }}>Transport:</p>
+          <p style={{ margin: 0 }}>{transport}</p>
+          <p style={{ margin: 0 }}>Socket ID:</p>
+          <p style={{ margin: 0 }}>{socket.id}</p>
         </p>
       </div>
     </div>

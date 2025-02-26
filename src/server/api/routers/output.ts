@@ -5,7 +5,8 @@ import {
   protectedProcedure,
   publicProcedure,
 } from "@/server/api/trpc";
-import { io } from "@/server/socket";
+import { io, serverGlobals } from "@/server/socket";
+import { Server } from "socket.io";
 
 export const outputRouter = createTRPCRouter({
   getAll: publicProcedure.query(({ ctx }) => {
@@ -19,7 +20,9 @@ export const outputRouter = createTRPCRouter({
   create: protectedProcedure.mutation(async ({ ctx }) => {
     await ctx.db.output.create({});
 
-    io.in("authenticatedUsers").emit("update:outputs");
+    (globalThis as unknown as { io: Server }).io
+      .in("authenticatedUsers")
+      .emit("update:outputs");
   }),
 
   selectQuestion: protectedProcedure
@@ -44,7 +47,7 @@ export const outputRouter = createTRPCRouter({
         },
       });
 
-      io.in("authenticatedUsers").emit(`update:output:${input.output_id}`);
+      serverGlobals.io.emit(`update:output:${input.output_id}`);
     }),
 
   getCurrent: publicProcedure

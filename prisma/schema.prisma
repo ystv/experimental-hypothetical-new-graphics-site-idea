@@ -45,6 +45,32 @@ model QuestionOutput {
     question Question? @relation(fields: [question_id], references: [id], onDelete: SetNull)
 }
 
+model YDCOutput {
+    id Int @id @default(autoincrement())
+
+    section_id String?
+    section YDCSection? @relation(fields: [section_id], references: [id])
+
+    team_id String?
+    team YDCTeam? @relation(fields: [team_id], references: [id])
+}
+
+model YDCSection {
+    id String @id @default(cuid())
+
+    name String
+
+    outputs YDCOutput[]
+}
+
+model YDCTeam {
+    id String @id @default(cuid())
+
+    name String
+
+    outputs YDCOutput[]
+}
+
 model Post {
     id        Int      @id @default(autoincrement())
     name      String

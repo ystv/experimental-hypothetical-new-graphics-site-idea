@@ -1,0 +1,3515 @@
+
+<svg width="1920" height="1080" viewbox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg" style="background: black">
+    <style>
+        @keyframes fall {
+            0% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(1080px);
+            }
+        }
+    </style>
+    
+    <g transform="translate(515, 0)">
+        <g style="animation: fall 9857ms infinite ease-in; animation-delay: 12ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(310.72570919424857deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1348, 0)">
+        <g style="animation: fall 7357ms infinite ease-in; animation-delay: 1060ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(64.20995866861232deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1124, 0)">
+        <g style="animation: fall 9620ms infinite ease-in; animation-delay: 3736ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(33.70136195396216deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(145, 0)">
+        <g style="animation: fall 10059ms infinite ease-in; animation-delay: 1568ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(45.85890840357914deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1847, 0)">
+        <g style="animation: fall 8954ms infinite ease-in; animation-delay: 2484ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(84.57520992873299deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1174, 0)">
+        <g style="animation: fall 5940ms infinite ease-in; animation-delay: 1606ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(218.26893625887266deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(356, 0)">
+        <g style="animation: fall 6956ms infinite ease-in; animation-delay: 1334ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(16.39738094352355deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(697, 0)">
+        <g style="animation: fall 10940ms infinite ease-in; animation-delay: 1556ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(329.08479386956355deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(904, 0)">
+        <g style="animation: fall 8960ms infinite ease-in; animation-delay: 3553ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(293.3698881407916deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(275, 0)">
+        <g style="animation: fall 5214ms infinite ease-in; animation-delay: 2696ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(161.2359356875876deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(812, 0)">
+        <g style="animation: fall 10667ms infinite ease-in; animation-delay: 4889ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(205.19782668417676deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(247, 0)">
+        <g style="animation: fall 7069ms infinite ease-in; animation-delay: 2648ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(35.45647696408645deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1099, 0)">
+        <g style="animation: fall 10818ms infinite ease-in; animation-delay: 4251ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(125.02593207298447deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1246, 0)">
+        <g style="animation: fall 9960ms infinite ease-in; animation-delay: 4845ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(27.03997306889198deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(910, 0)">
+        <g style="animation: fall 5198ms infinite ease-in; animation-delay: 311ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(227.5461460464975deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(286, 0)">
+        <g style="animation: fall 9994ms infinite ease-in; animation-delay: 2414ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(222.95297972543582deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(239, 0)">
+        <g style="animation: fall 10955ms infinite ease-in; animation-delay: 1137ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(227.19974095671697deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(814, 0)">
+        <g style="animation: fall 5946ms infinite ease-in; animation-delay: 1145ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(248.9054898282075deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(109, 0)">
+        <g style="animation: fall 9895ms infinite ease-in; animation-delay: 1970ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(182.85558668916426deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(730, 0)">
+        <g style="animation: fall 8251ms infinite ease-in; animation-delay: 4996ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(260.6165376562187deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(47, 0)">
+        <g style="animation: fall 10384ms infinite ease-in; animation-delay: 2194ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(107.15830057913908deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1676, 0)">
+        <g style="animation: fall 5381ms infinite ease-in; animation-delay: 207ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(224.9474384973063deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1288, 0)">
+        <g style="animation: fall 9749ms infinite ease-in; animation-delay: 818ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(74.83805410873393deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(305, 0)">
+        <g style="animation: fall 7000ms infinite ease-in; animation-delay: 1809ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(283.96213616955686deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(682, 0)">
+        <g style="animation: fall 5961ms infinite ease-in; animation-delay: 307ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(311.26668994999966deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1311, 0)">
+        <g style="animation: fall 8055ms infinite ease-in; animation-delay: 3860ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(333.9744571705922deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1830, 0)">
+        <g style="animation: fall 10162ms infinite ease-in; animation-delay: 2594ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(312.1293371151237deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1036, 0)">
+        <g style="animation: fall 8164ms infinite ease-in; animation-delay: 1907ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(182.22034652446936deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1035, 0)">
+        <g style="animation: fall 9026ms infinite ease-in; animation-delay: 483ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(202.1330781579396deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(871, 0)">
+        <g style="animation: fall 7690ms infinite ease-in; animation-delay: 1076ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(19.56673477922407deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1216, 0)">
+        <g style="animation: fall 8619ms infinite ease-in; animation-delay: 3098ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(9.740408926366708deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1858, 0)">
+        <g style="animation: fall 7904ms infinite ease-in; animation-delay: 23ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(246.91026630989214deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1042, 0)">
+        <g style="animation: fall 8808ms infinite ease-in; animation-delay: 578ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(250.89844116780776deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1056, 0)">
+        <g style="animation: fall 6088ms infinite ease-in; animation-delay: 1505ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(220.3204685486956deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(638, 0)">
+        <g style="animation: fall 8433ms infinite ease-in; animation-delay: 1489ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(71.45681981998439deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(216, 0)">
+        <g style="animation: fall 5859ms infinite ease-in; animation-delay: 2993ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(304.87385032252786deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1918, 0)">
+        <g style="animation: fall 7565ms infinite ease-in; animation-delay: 2232ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(211.71725401161981deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1044, 0)">
+        <g style="animation: fall 6029ms infinite ease-in; animation-delay: 4114ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(190.08634897373625deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1858, 0)">
+        <g style="animation: fall 9912ms infinite ease-in; animation-delay: 4606ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(19.3658690441847deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1036, 0)">
+        <g style="animation: fall 10128ms infinite ease-in; animation-delay: 601ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(66.79244764319823deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1779, 0)">
+        <g style="animation: fall 10780ms infinite ease-in; animation-delay: 3635ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(41.43828488140036deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(795, 0)">
+        <g style="animation: fall 5619ms infinite ease-in; animation-delay: 1448ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(101.04188317429485deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1728, 0)">
+        <g style="animation: fall 8102ms infinite ease-in; animation-delay: 2080ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(301.8546510327886deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(782, 0)">
+        <g style="animation: fall 8262ms infinite ease-in; animation-delay: 1042ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(36.785031234833056deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(450, 0)">
+        <g style="animation: fall 10138ms infinite ease-in; animation-delay: 464ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(152.97216327509864deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1249, 0)">
+        <g style="animation: fall 6666ms infinite ease-in; animation-delay: 381ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(21.180664434147488deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(671, 0)">
+        <g style="animation: fall 7723ms infinite ease-in; animation-delay: 920ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(157.24674388580158deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1788, 0)">
+        <g style="animation: fall 6644ms infinite ease-in; animation-delay: 883ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(321.90892891560827deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1611, 0)">
+        <g style="animation: fall 9332ms infinite ease-in; animation-delay: 3318ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(219.18107472311547deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(942, 0)">
+        <g style="animation: fall 5401ms infinite ease-in; animation-delay: 2666ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(107.03219433595588deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(182, 0)">
+        <g style="animation: fall 8208ms infinite ease-in; animation-delay: 4310ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(110.94699643524206deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(137, 0)">
+        <g style="animation: fall 9332ms infinite ease-in; animation-delay: 4489ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(100.87903097468586deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(144, 0)">
+        <g style="animation: fall 9072ms infinite ease-in; animation-delay: 418ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(255.8211882411304deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1635, 0)">
+        <g style="animation: fall 7193ms infinite ease-in; animation-delay: 4396ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(330.93845128108666deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1769, 0)">
+        <g style="animation: fall 5610ms infinite ease-in; animation-delay: 1676ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(175.49407746685665deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1173, 0)">
+        <g style="animation: fall 5804ms infinite ease-in; animation-delay: 89ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(299.39316454065334deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(564, 0)">
+        <g style="animation: fall 7936ms infinite ease-in; animation-delay: 925ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(343.5510394586493deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(442, 0)">
+        <g style="animation: fall 8434ms infinite ease-in; animation-delay: 753ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(274.96385866077617deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(222, 0)">
+        <g style="animation: fall 6916ms infinite ease-in; animation-delay: 4437ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(276.2140857052945deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(338, 0)">
+        <g style="animation: fall 7527ms infinite ease-in; animation-delay: 4623ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(32.968371911793554deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(74, 0)">
+        <g style="animation: fall 9085ms infinite ease-in; animation-delay: 1407ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(99.02829624710776deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1439, 0)">
+        <g style="animation: fall 5470ms infinite ease-in; animation-delay: 3136ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(78.74089021180724deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(695, 0)">
+        <g style="animation: fall 10070ms infinite ease-in; animation-delay: 1875ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(234.23306128082547deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(113, 0)">
+        <g style="animation: fall 9191ms infinite ease-in; animation-delay: 1208ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(351.58733897814164deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(317, 0)">
+        <g style="animation: fall 10752ms infinite ease-in; animation-delay: 1956ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(34.46531527911798deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(434, 0)">
+        <g style="animation: fall 5399ms infinite ease-in; animation-delay: 2924ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(220.34797782291577deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(828, 0)">
+        <g style="animation: fall 10707ms infinite ease-in; animation-delay: 492ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(230.18247427697935deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1758, 0)">
+        <g style="animation: fall 8727ms infinite ease-in; animation-delay: 3401ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(148.87674479469274deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(446, 0)">
+        <g style="animation: fall 5314ms infinite ease-in; animation-delay: 1213ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(266.9508109768525deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1160, 0)">
+        <g style="animation: fall 9015ms infinite ease-in; animation-delay: 2055ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(226.6278300036518deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(603, 0)">
+        <g style="animation: fall 9079ms infinite ease-in; animation-delay: 2495ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(246.36585016074048deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1526, 0)">
+        <g style="animation: fall 10732ms infinite ease-in; animation-delay: 869ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(305.6983136178137deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1347, 0)">
+        <g style="animation: fall 8456ms infinite ease-in; animation-delay: 549ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(261.49954580247254deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1685, 0)">
+        <g style="animation: fall 9214ms infinite ease-in; animation-delay: 1849ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(276.50904024528256deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1335, 0)">
+        <g style="animation: fall 8083ms infinite ease-in; animation-delay: 2109ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(147.60384451318964deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1341, 0)">
+        <g style="animation: fall 9758ms infinite ease-in; animation-delay: 2330ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(319.8028399759258deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(102, 0)">
+        <g style="animation: fall 10913ms infinite ease-in; animation-delay: 2723ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(137.8350838513419deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1336, 0)">
+        <g style="animation: fall 10158ms infinite ease-in; animation-delay: 2576ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(103.0243773655823deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1825, 0)">
+        <g style="animation: fall 7577ms infinite ease-in; animation-delay: 1535ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(108.50926771849208deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(520, 0)">
+        <g style="animation: fall 7164ms infinite ease-in; animation-delay: 3554ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(213.41961632293857deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(822, 0)">
+        <g style="animation: fall 8878ms infinite ease-in; animation-delay: 4157ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(187.48148456945654deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(410, 0)">
+        <g style="animation: fall 9533ms infinite ease-in; animation-delay: 300ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(352.3046792917488deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1250, 0)">
+        <g style="animation: fall 9793ms infinite ease-in; animation-delay: 982ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(171.18913643025164deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(846, 0)">
+        <g style="animation: fall 10052ms infinite ease-in; animation-delay: 4234ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(259.6811203605552deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1608, 0)">
+        <g style="animation: fall 5869ms infinite ease-in; animation-delay: 1766ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(162.4339048983979deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1767, 0)">
+        <g style="animation: fall 5134ms infinite ease-in; animation-delay: 4457ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(327.70895998070733deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1247, 0)">
+        <g style="animation: fall 9075ms infinite ease-in; animation-delay: 2268ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(234.5718441393964deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1915, 0)">
+        <g style="animation: fall 7496ms infinite ease-in; animation-delay: 2391ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(202.75221377010172deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(463, 0)">
+        <g style="animation: fall 8488ms infinite ease-in; animation-delay: 3190ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(132.1739815503939deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1852, 0)">
+        <g style="animation: fall 6359ms infinite ease-in; animation-delay: 4208ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(144.38168726284817deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1830, 0)">
+        <g style="animation: fall 9450ms infinite ease-in; animation-delay: 463ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(93.47613803563856deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(801, 0)">
+        <g style="animation: fall 5799ms infinite ease-in; animation-delay: 329ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(157.49117773141415deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(479, 0)">
+        <g style="animation: fall 5689ms infinite ease-in; animation-delay: 3022ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(231.63058156448153deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1482, 0)">
+        <g style="animation: fall 6277ms infinite ease-in; animation-delay: 4070ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(168.32123318562532deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1701, 0)">
+        <g style="animation: fall 6484ms infinite ease-in; animation-delay: 59ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(144.48642739418895deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(395, 0)">
+        <g style="animation: fall 7300ms infinite ease-in; animation-delay: 4910ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(158.44476095575376deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1725, 0)">
+        <g style="animation: fall 9173ms infinite ease-in; animation-delay: 3503ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(105.7971877933387deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(385, 0)">
+        <g style="animation: fall 10779ms infinite ease-in; animation-delay: 198ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(141.9309278139682deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1787, 0)">
+        <g style="animation: fall 6210ms infinite ease-in; animation-delay: 2184ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(202.68289192882824deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1011, 0)">
+        <g style="animation: fall 5057ms infinite ease-in; animation-delay: 876ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(245.65292947447531deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(616, 0)">
+        <g style="animation: fall 7014ms infinite ease-in; animation-delay: 4448ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(92.01509491744176deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(935, 0)">
+        <g style="animation: fall 9100ms infinite ease-in; animation-delay: 3367ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(182.15870426333217deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1012, 0)">
+        <g style="animation: fall 10468ms infinite ease-in; animation-delay: 2103ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(252.70219361656288deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1094, 0)">
+        <g style="animation: fall 10943ms infinite ease-in; animation-delay: 4812ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(251.20199418122664deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1613, 0)">
+        <g style="animation: fall 5078ms infinite ease-in; animation-delay: 1591ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(346.7701081349833deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1269, 0)">
+        <g style="animation: fall 6701ms infinite ease-in; animation-delay: 4464ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(343.1667762576095deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(727, 0)">
+        <g style="animation: fall 6175ms infinite ease-in; animation-delay: 4752ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(241.39285732918913deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(396, 0)">
+        <g style="animation: fall 6142ms infinite ease-in; animation-delay: 3796ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(7.420518379184107deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(855, 0)">
+        <g style="animation: fall 5191ms infinite ease-in; animation-delay: 4186ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(161.44082912091895deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(779, 0)">
+        <g style="animation: fall 9838ms infinite ease-in; animation-delay: 2182ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(233.52411311435984deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1516, 0)">
+        <g style="animation: fall 10804ms infinite ease-in; animation-delay: 1878ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(218.28449528824675deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1128, 0)">
+        <g style="animation: fall 5453ms infinite ease-in; animation-delay: 3015ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(332.292473868352deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(752, 0)">
+        <g style="animation: fall 8555ms infinite ease-in; animation-delay: 1815ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(313.2840397684272deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1503, 0)">
+        <g style="animation: fall 8742ms infinite ease-in; animation-delay: 2982ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(211.90593080258682deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1135, 0)">
+        <g style="animation: fall 7786ms infinite ease-in; animation-delay: 2557ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(18.58061503928536deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1351, 0)">
+        <g style="animation: fall 8240ms infinite ease-in; animation-delay: 3669ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(63.49085057334526deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(983, 0)">
+        <g style="animation: fall 9434ms infinite ease-in; animation-delay: 755ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(338.71639824088487deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(204, 0)">
+        <g style="animation: fall 8886ms infinite ease-in; animation-delay: 2775ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(178.48017202654873deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(91, 0)">
+        <g style="animation: fall 8147ms infinite ease-in; animation-delay: 1309ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(123.74973162925357deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(882, 0)">
+        <g style="animation: fall 6288ms infinite ease-in; animation-delay: 1432ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(359.9555484804035deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(342, 0)">
+        <g style="animation: fall 9777ms infinite ease-in; animation-delay: 4833ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(297.3982222400229deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1817, 0)">
+        <g style="animation: fall 5040ms infinite ease-in; animation-delay: 528ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(228.3025011792268deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(912, 0)">
+        <g style="animation: fall 5362ms infinite ease-in; animation-delay: 3487ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(340.8948992358289deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(607, 0)">
+        <g style="animation: fall 8093ms infinite ease-in; animation-delay: 1521ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(242.76970186753135deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1663, 0)">
+        <g style="animation: fall 9497ms infinite ease-in; animation-delay: 3092ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(320.99496355082243deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1066, 0)">
+        <g style="animation: fall 6791ms infinite ease-in; animation-delay: 3809ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(339.36532203138853deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(71, 0)">
+        <g style="animation: fall 8129ms infinite ease-in; animation-delay: 1051ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(303.74711093949065deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1043, 0)">
+        <g style="animation: fall 9426ms infinite ease-in; animation-delay: 3144ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(249.46992121174878deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(76, 0)">
+        <g style="animation: fall 6787ms infinite ease-in; animation-delay: 2219ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(15.401287181317942deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(929, 0)">
+        <g style="animation: fall 10630ms infinite ease-in; animation-delay: 1871ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(7.275431263030465deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1363, 0)">
+        <g style="animation: fall 10724ms infinite ease-in; animation-delay: 2059ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(8.468528695200778deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1093, 0)">
+        <g style="animation: fall 6139ms infinite ease-in; animation-delay: 3749ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(179.40095775975306deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(658, 0)">
+        <g style="animation: fall 10026ms infinite ease-in; animation-delay: 1462ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(24.5316770938786deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(5, 0)">
+        <g style="animation: fall 8078ms infinite ease-in; animation-delay: 4652ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(211.46256241359018deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(96, 0)">
+        <g style="animation: fall 8212ms infinite ease-in; animation-delay: 937ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(279.7769640403253deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(746, 0)">
+        <g style="animation: fall 10445ms infinite ease-in; animation-delay: 1318ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(5.914812384318631deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1412, 0)">
+        <g style="animation: fall 8199ms infinite ease-in; animation-delay: 4639ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(249.06013642565537deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(226, 0)">
+        <g style="animation: fall 6239ms infinite ease-in; animation-delay: 1733ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(144.7986032730167deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(133, 0)">
+        <g style="animation: fall 5573ms infinite ease-in; animation-delay: 3931ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(92.02374064977309deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(195, 0)">
+        <g style="animation: fall 10832ms infinite ease-in; animation-delay: 2362ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(208.47899418332213deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1527, 0)">
+        <g style="animation: fall 8831ms infinite ease-in; animation-delay: 1069ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(338.976774741165deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(320, 0)">
+        <g style="animation: fall 9530ms infinite ease-in; animation-delay: 2993ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(69.14300327264644deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1365, 0)">
+        <g style="animation: fall 7638ms infinite ease-in; animation-delay: 223ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(170.20512567262253deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(871, 0)">
+        <g style="animation: fall 7295ms infinite ease-in; animation-delay: 3954ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(9.745150784855653deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(337, 0)">
+        <g style="animation: fall 7761ms infinite ease-in; animation-delay: 2229ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(48.64076944409147deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1206, 0)">
+        <g style="animation: fall 5197ms infinite ease-in; animation-delay: 302ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(220.29641438348492deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1068, 0)">
+        <g style="animation: fall 6966ms infinite ease-in; animation-delay: 4863ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(232.50432296134926deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(645, 0)">
+        <g style="animation: fall 10428ms infinite ease-in; animation-delay: 2033ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(1.4681243624490037deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(743, 0)">
+        <g style="animation: fall 5760ms infinite ease-in; animation-delay: 37ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(287.40076838094177deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1749, 0)">
+        <g style="animation: fall 9763ms infinite ease-in; animation-delay: 1165ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(276.3537618859026deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1226, 0)">
+        <g style="animation: fall 8823ms infinite ease-in; animation-delay: 1272ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(171.82445513164058deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(116, 0)">
+        <g style="animation: fall 6637ms infinite ease-in; animation-delay: 2609ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(348.1015808167756deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1694, 0)">
+        <g style="animation: fall 10374ms infinite ease-in; animation-delay: 4430ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(10.503651330734769deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(907, 0)">
+        <g style="animation: fall 10681ms infinite ease-in; animation-delay: 4418ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(298.7681375203929deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(652, 0)">
+        <g style="animation: fall 10285ms infinite ease-in; animation-delay: 4877ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(121.14054588062044deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1137, 0)">
+        <g style="animation: fall 9762ms infinite ease-in; animation-delay: 2016ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(120.03547557252388deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1304, 0)">
+        <g style="animation: fall 9309ms infinite ease-in; animation-delay: 94ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(290.45091938332945deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1427, 0)">
+        <g style="animation: fall 8361ms infinite ease-in; animation-delay: 4179ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(31.3399970731693deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(800, 0)">
+        <g style="animation: fall 7209ms infinite ease-in; animation-delay: 2392ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(334.4310372773708deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1575, 0)">
+        <g style="animation: fall 10516ms infinite ease-in; animation-delay: 1181ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(269.49743117473963deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1414, 0)">
+        <g style="animation: fall 7076ms infinite ease-in; animation-delay: 4297ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(270.4573369918816deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1521, 0)">
+        <g style="animation: fall 8380ms infinite ease-in; animation-delay: 3613ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(208.85822308887074deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(531, 0)">
+        <g style="animation: fall 5154ms infinite ease-in; animation-delay: 2437ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(32.165018116418615deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(941, 0)">
+        <g style="animation: fall 10950ms infinite ease-in; animation-delay: 3883ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(8.285921853410528deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(455, 0)">
+        <g style="animation: fall 7234ms infinite ease-in; animation-delay: 1262ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(229.28431930915224deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1128, 0)">
+        <g style="animation: fall 8575ms infinite ease-in; animation-delay: 781ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(354.6562183713032deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(441, 0)">
+        <g style="animation: fall 7661ms infinite ease-in; animation-delay: 4681ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(142.10191509316203deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(549, 0)">
+        <g style="animation: fall 5446ms infinite ease-in; animation-delay: 3161ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(342.25594445765404deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(337, 0)">
+        <g style="animation: fall 9368ms infinite ease-in; animation-delay: 3264ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(23.982119782535168deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1229, 0)">
+        <g style="animation: fall 8863ms infinite ease-in; animation-delay: 4517ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(166.3340654148527deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(170, 0)">
+        <g style="animation: fall 5919ms infinite ease-in; animation-delay: 4550ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(266.21918041185506deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1203, 0)">
+        <g style="animation: fall 9907ms infinite ease-in; animation-delay: 1979ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(287.3282002480073deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1008, 0)">
+        <g style="animation: fall 6527ms infinite ease-in; animation-delay: 4096ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(233.65098513834482deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(336, 0)">
+        <g style="animation: fall 5763ms infinite ease-in; animation-delay: 3170ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(162.1595479794381deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(68, 0)">
+        <g style="animation: fall 6330ms infinite ease-in; animation-delay: 3225ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(208.52200309921662deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(491, 0)">
+        <g style="animation: fall 7130ms infinite ease-in; animation-delay: 2293ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(221.3093718505879deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1656, 0)">
+        <g style="animation: fall 6411ms infinite ease-in; animation-delay: 778ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(62.23704134380727deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(881, 0)">
+        <g style="animation: fall 6483ms infinite ease-in; animation-delay: 1323ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(187.51035086707435deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(759, 0)">
+        <g style="animation: fall 8406ms infinite ease-in; animation-delay: 3384ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(76.21572791883699deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1729, 0)">
+        <g style="animation: fall 10105ms infinite ease-in; animation-delay: 3452ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(197.92063375386203deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(432, 0)">
+        <g style="animation: fall 10619ms infinite ease-in; animation-delay: 2277ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(17.39954694918326deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(156, 0)">
+        <g style="animation: fall 5173ms infinite ease-in; animation-delay: 28ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(52.4533349713731deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1430, 0)">
+        <g style="animation: fall 9030ms infinite ease-in; animation-delay: 4684ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(11.707457509768187deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(992, 0)">
+        <g style="animation: fall 7436ms infinite ease-in; animation-delay: 2366ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(147.2183730276355deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(466, 0)">
+        <g style="animation: fall 8836ms infinite ease-in; animation-delay: 4892ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(234.0430639499975deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1533, 0)">
+        <g style="animation: fall 6503ms infinite ease-in; animation-delay: 705ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(202.72291653891187deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(664, 0)">
+        <g style="animation: fall 5052ms infinite ease-in; animation-delay: 3777ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(167.3073264401613deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1747, 0)">
+        <g style="animation: fall 8605ms infinite ease-in; animation-delay: 736ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(341.93330277970375deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(626, 0)">
+        <g style="animation: fall 9705ms infinite ease-in; animation-delay: 901ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(71.42946313374543deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(389, 0)">
+        <g style="animation: fall 10751ms infinite ease-in; animation-delay: 2038ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(103.32143917298788deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1484, 0)">
+        <g style="animation: fall 9900ms infinite ease-in; animation-delay: 1304ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(170.81506583124718deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1273, 0)">
+        <g style="animation: fall 10918ms infinite ease-in; animation-delay: 82ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(151.65929466115426deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(855, 0)">
+        <g style="animation: fall 10140ms infinite ease-in; animation-delay: 3441ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(78.1558909161418deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(2, 0)">
+        <g style="animation: fall 8082ms infinite ease-in; animation-delay: 4874ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(70.70293033590167deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1636, 0)">
+        <g style="animation: fall 7246ms infinite ease-in; animation-delay: 4360ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(225.3947938989291deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1219, 0)">
+        <g style="animation: fall 8649ms infinite ease-in; animation-delay: 366ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(212.03425899202153deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1652, 0)">
+        <g style="animation: fall 10112ms infinite ease-in; animation-delay: 151ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(61.949738538522745deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1310, 0)">
+        <g style="animation: fall 6458ms infinite ease-in; animation-delay: 4181ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(344.1859855399836deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1541, 0)">
+        <g style="animation: fall 7732ms infinite ease-in; animation-delay: 700ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(118.83125563667421deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1200, 0)">
+        <g style="animation: fall 6150ms infinite ease-in; animation-delay: 3545ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(249.1845250695518deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1578, 0)">
+        <g style="animation: fall 6491ms infinite ease-in; animation-delay: 1410ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(283.17929286258504deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(748, 0)">
+        <g style="animation: fall 7369ms infinite ease-in; animation-delay: 1559ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(46.60046243600562deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(456, 0)">
+        <g style="animation: fall 5553ms infinite ease-in; animation-delay: 3940ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(57.513080634462625deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1587, 0)">
+        <g style="animation: fall 7348ms infinite ease-in; animation-delay: 4318ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(350.5937894229521deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1651, 0)">
+        <g style="animation: fall 10055ms infinite ease-in; animation-delay: 4923ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(271.07727593576965deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(92, 0)">
+        <g style="animation: fall 7275ms infinite ease-in; animation-delay: 483ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(323.98870690244024deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1363, 0)">
+        <g style="animation: fall 5273ms infinite ease-in; animation-delay: 3931ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(143.7924795818614deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1756, 0)">
+        <g style="animation: fall 9991ms infinite ease-in; animation-delay: 1863ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(256.2203580147705deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1480, 0)">
+        <g style="animation: fall 5819ms infinite ease-in; animation-delay: 1717ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(66.83760805307539deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(832, 0)">
+        <g style="animation: fall 7334ms infinite ease-in; animation-delay: 4548ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(159.92881285023967deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(796, 0)">
+        <g style="animation: fall 10882ms infinite ease-in; animation-delay: 2695ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(24.4951185811756deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(122, 0)">
+        <g style="animation: fall 10024ms infinite ease-in; animation-delay: 1852ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(277.5251531208196deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1614, 0)">
+        <g style="animation: fall 9747ms infinite ease-in; animation-delay: 669ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(265.33321930392316deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1554, 0)">
+        <g style="animation: fall 9294ms infinite ease-in; animation-delay: 1948ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(182.95285955857779deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(737, 0)">
+        <g style="animation: fall 10214ms infinite ease-in; animation-delay: 493ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(341.042142635496deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(551, 0)">
+        <g style="animation: fall 5882ms infinite ease-in; animation-delay: 2609ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(94.30454486633447deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(888, 0)">
+        <g style="animation: fall 7479ms infinite ease-in; animation-delay: 3469ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(84.03434860912729deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(399, 0)">
+        <g style="animation: fall 5570ms infinite ease-in; animation-delay: 4985ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(260.4261871885585deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(186, 0)">
+        <g style="animation: fall 9637ms infinite ease-in; animation-delay: 622ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(158.74823497397514deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1027, 0)">
+        <g style="animation: fall 5344ms infinite ease-in; animation-delay: 4620ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(76.22590423108166deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(84, 0)">
+        <g style="animation: fall 7507ms infinite ease-in; animation-delay: 2234ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(66.88898296622956deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(201, 0)">
+        <g style="animation: fall 5778ms infinite ease-in; animation-delay: 1965ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(97.75595064726544deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1266, 0)">
+        <g style="animation: fall 7916ms infinite ease-in; animation-delay: 4269ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(196.26100805153382deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(179, 0)">
+        <g style="animation: fall 6857ms infinite ease-in; animation-delay: 3361ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(15.994477410986928deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(713, 0)">
+        <g style="animation: fall 5101ms infinite ease-in; animation-delay: 2419ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(331.67794077956273deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(864, 0)">
+        <g style="animation: fall 7824ms infinite ease-in; animation-delay: 1173ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(223.27409214450688deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(587, 0)">
+        <g style="animation: fall 8914ms infinite ease-in; animation-delay: 2692ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(182.95552265831893deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1359, 0)">
+        <g style="animation: fall 6211ms infinite ease-in; animation-delay: 169ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(85.73482167261461deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1788, 0)">
+        <g style="animation: fall 5551ms infinite ease-in; animation-delay: 2076ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(179.32118200172005deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(862, 0)">
+        <g style="animation: fall 8418ms infinite ease-in; animation-delay: 3313ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(345.667791370287deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1241, 0)">
+        <g style="animation: fall 8077ms infinite ease-in; animation-delay: 1392ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(132.74673125575697deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(531, 0)">
+        <g style="animation: fall 9876ms infinite ease-in; animation-delay: 4057ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(181.93818124981703deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(110, 0)">
+        <g style="animation: fall 5870ms infinite ease-in; animation-delay: 979ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(180.78863514399885deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1176, 0)">
+        <g style="animation: fall 5226ms infinite ease-in; animation-delay: 3801ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(250.80190855432858deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(868, 0)">
+        <g style="animation: fall 6065ms infinite ease-in; animation-delay: 3596ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(173.76620783155929deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(76, 0)">
+        <g style="animation: fall 7501ms infinite ease-in; animation-delay: 84ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(128.35734807181242deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1079, 0)">
+        <g style="animation: fall 8284ms infinite ease-in; animation-delay: 1608ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(256.40132838963086deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1534, 0)">
+        <g style="animation: fall 5349ms infinite ease-in; animation-delay: 1480ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(291.4758239094657deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(549, 0)">
+        <g style="animation: fall 6964ms infinite ease-in; animation-delay: 641ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(96.09256227443176deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(133, 0)">
+        <g style="animation: fall 9173ms infinite ease-in; animation-delay: 2887ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(22.79570865219582deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1808, 0)">
+        <g style="animation: fall 8720ms infinite ease-in; animation-delay: 2324ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(20.108854502465825deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(564, 0)">
+        <g style="animation: fall 5528ms infinite ease-in; animation-delay: 1770ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(297.1764065412018deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1077, 0)">
+        <g style="animation: fall 10707ms infinite ease-in; animation-delay: 1220ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(145.64393414754215deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1333, 0)">
+        <g style="animation: fall 9615ms infinite ease-in; animation-delay: 1703ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(165.11275343970985deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(389, 0)">
+        <g style="animation: fall 9450ms infinite ease-in; animation-delay: 2700ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(232.68193864430302deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(190, 0)">
+        <g style="animation: fall 7011ms infinite ease-in; animation-delay: 4694ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(104.26525330719346deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1397, 0)">
+        <g style="animation: fall 8930ms infinite ease-in; animation-delay: 3142ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(307.6194211129315deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1146, 0)">
+        <g style="animation: fall 10839ms infinite ease-in; animation-delay: 4859ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(210.5806718502883deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(617, 0)">
+        <g style="animation: fall 7929ms infinite ease-in; animation-delay: 3079ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(112.29898023912631deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1583, 0)">
+        <g style="animation: fall 7822ms infinite ease-in; animation-delay: 2591ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(40.402463582850004deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(972, 0)">
+        <g style="animation: fall 6782ms infinite ease-in; animation-delay: 2803ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(196.8216342848447deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(705, 0)">
+        <g style="animation: fall 10903ms infinite ease-in; animation-delay: 4686ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(314.2138556449833deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(999, 0)">
+        <g style="animation: fall 8906ms infinite ease-in; animation-delay: 4996ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(240.61400614923082deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1644, 0)">
+        <g style="animation: fall 8104ms infinite ease-in; animation-delay: 879ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(230.7600573563534deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1863, 0)">
+        <g style="animation: fall 6727ms infinite ease-in; animation-delay: 1996ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(264.29773692203645deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1426, 0)">
+        <g style="animation: fall 9888ms infinite ease-in; animation-delay: 3935ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(339.5505865977762deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1334, 0)">
+        <g style="animation: fall 9876ms infinite ease-in; animation-delay: 338ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(178.0608048630311deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1121, 0)">
+        <g style="animation: fall 9746ms infinite ease-in; animation-delay: 2062ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(194.73396165126545deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1323, 0)">
+        <g style="animation: fall 7035ms infinite ease-in; animation-delay: 989ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(212.8904925110012deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1035, 0)">
+        <g style="animation: fall 7726ms infinite ease-in; animation-delay: 331ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(52.98263092752096deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(316, 0)">
+        <g style="animation: fall 8213ms infinite ease-in; animation-delay: 1528ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(138.7119717032446deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(292, 0)">
+        <g style="animation: fall 5464ms infinite ease-in; animation-delay: 1627ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(6.382110698238339deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(115, 0)">
+        <g style="animation: fall 10042ms infinite ease-in; animation-delay: 3588ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(279.79031621447524deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1314, 0)">
+        <g style="animation: fall 8465ms infinite ease-in; animation-delay: 4383ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(64.67124316040027deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(297, 0)">
+        <g style="animation: fall 9349ms infinite ease-in; animation-delay: 2028ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(163.50635160987238deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(976, 0)">
+        <g style="animation: fall 10451ms infinite ease-in; animation-delay: 2105ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(226.23793758740766deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(86, 0)">
+        <g style="animation: fall 10926ms infinite ease-in; animation-delay: 3003ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(111.14272411937664deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1590, 0)">
+        <g style="animation: fall 6915ms infinite ease-in; animation-delay: 1145ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(11.715657740460426deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(90, 0)">
+        <g style="animation: fall 6977ms infinite ease-in; animation-delay: 3813ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(279.78382654152256deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1280, 0)">
+        <g style="animation: fall 6702ms infinite ease-in; animation-delay: 772ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(143.3997870980957deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(773, 0)">
+        <g style="animation: fall 8953ms infinite ease-in; animation-delay: 2827ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(338.71205128523656deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1192, 0)">
+        <g style="animation: fall 10937ms infinite ease-in; animation-delay: 3221ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(182.7267661077362deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1581, 0)">
+        <g style="animation: fall 8596ms infinite ease-in; animation-delay: 709ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(132.16320290089376deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(219, 0)">
+        <g style="animation: fall 8679ms infinite ease-in; animation-delay: 2028ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(179.28594468660413deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1249, 0)">
+        <g style="animation: fall 8142ms infinite ease-in; animation-delay: 3408ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(80.43731515244276deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1526, 0)">
+        <g style="animation: fall 6518ms infinite ease-in; animation-delay: 2091ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(202.1981673685505deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(96, 0)">
+        <g style="animation: fall 9586ms infinite ease-in; animation-delay: 2097ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(121.22534377659255deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(817, 0)">
+        <g style="animation: fall 5927ms infinite ease-in; animation-delay: 791ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(102.73967881969278deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(223, 0)">
+        <g style="animation: fall 8349ms infinite ease-in; animation-delay: 4497ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(68.61035191371556deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(888, 0)">
+        <g style="animation: fall 7246ms infinite ease-in; animation-delay: 702ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(277.9640599216856deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(110, 0)">
+        <g style="animation: fall 7383ms infinite ease-in; animation-delay: 4607ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(257.38696751362886deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(123, 0)">
+        <g style="animation: fall 7568ms infinite ease-in; animation-delay: 1842ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(251.31386381153405deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(738, 0)">
+        <g style="animation: fall 8570ms infinite ease-in; animation-delay: 1237ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(121.50833942180832deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(637, 0)">
+        <g style="animation: fall 8720ms infinite ease-in; animation-delay: 440ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(281.82051332786557deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(172, 0)">
+        <g style="animation: fall 10662ms infinite ease-in; animation-delay: 685ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(0.6916859333773084deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1523, 0)">
+        <g style="animation: fall 10811ms infinite ease-in; animation-delay: 2308ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(153.45686451659404deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1768, 0)">
+        <g style="animation: fall 10295ms infinite ease-in; animation-delay: 3691ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(59.45408382760367deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1286, 0)">
+        <g style="animation: fall 10168ms infinite ease-in; animation-delay: 4692ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(162.43896747776623deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(990, 0)">
+        <g style="animation: fall 6338ms infinite ease-in; animation-delay: 4367ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(198.82121364868607deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(669, 0)">
+        <g style="animation: fall 7475ms infinite ease-in; animation-delay: 4247ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(15.671139936532388deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1466, 0)">
+        <g style="animation: fall 9499ms infinite ease-in; animation-delay: 121ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(96.62239078300617deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(425, 0)">
+        <g style="animation: fall 8015ms infinite ease-in; animation-delay: 142ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(165.6712952275469deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1054, 0)">
+        <g style="animation: fall 10724ms infinite ease-in; animation-delay: 2185ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(215.3797793734323deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(266, 0)">
+        <g style="animation: fall 9459ms infinite ease-in; animation-delay: 3926ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(239.25592737244466deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(616, 0)">
+        <g style="animation: fall 10156ms infinite ease-in; animation-delay: 63ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(177.64580604244512deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(22, 0)">
+        <g style="animation: fall 8617ms infinite ease-in; animation-delay: 832ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(45.1312536426515deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1782, 0)">
+        <g style="animation: fall 5375ms infinite ease-in; animation-delay: 2465ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(166.32586320109468deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(119, 0)">
+        <g style="animation: fall 5462ms infinite ease-in; animation-delay: 4683ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(156.58829771073553deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1677, 0)">
+        <g style="animation: fall 5946ms infinite ease-in; animation-delay: 35ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(223.95716059518475deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1918, 0)">
+        <g style="animation: fall 8960ms infinite ease-in; animation-delay: 203ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(48.67697063366726deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1211, 0)">
+        <g style="animation: fall 9743ms infinite ease-in; animation-delay: 831ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(342.40369137990615deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1767, 0)">
+        <g style="animation: fall 8790ms infinite ease-in; animation-delay: 1550ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(88.00339484394112deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(748, 0)">
+        <g style="animation: fall 10512ms infinite ease-in; animation-delay: 4516ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(25.139878085400895deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1816, 0)">
+        <g style="animation: fall 7420ms infinite ease-in; animation-delay: 3354ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(296.1172163316454deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1112, 0)">
+        <g style="animation: fall 5374ms infinite ease-in; animation-delay: 3493ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(23.951907886720917deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1164, 0)">
+        <g style="animation: fall 5408ms infinite ease-in; animation-delay: 895ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(231.6206348341164deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1683, 0)">
+        <g style="animation: fall 8325ms infinite ease-in; animation-delay: 3362ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(0.6777930229458295deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(178, 0)">
+        <g style="animation: fall 8135ms infinite ease-in; animation-delay: 3782ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(340.23079244688086deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(779, 0)">
+        <g style="animation: fall 10917ms infinite ease-in; animation-delay: 4675ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(321.6753503750552deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(731, 0)">
+        <g style="animation: fall 9347ms infinite ease-in; animation-delay: 4180ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(354.6591643801464deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(503, 0)">
+        <g style="animation: fall 6316ms infinite ease-in; animation-delay: 3870ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(55.28592478140545deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1272, 0)">
+        <g style="animation: fall 5535ms infinite ease-in; animation-delay: 4777ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(10.368798261496043deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1176, 0)">
+        <g style="animation: fall 7860ms infinite ease-in; animation-delay: 1525ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(162.16893676478796deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1500, 0)">
+        <g style="animation: fall 10794ms infinite ease-in; animation-delay: 1013ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(189.05017564782563deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(828, 0)">
+        <g style="animation: fall 7367ms infinite ease-in; animation-delay: 4245ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(17.084323778196342deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1053, 0)">
+        <g style="animation: fall 10596ms infinite ease-in; animation-delay: 166ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(176.19701369101523deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(787, 0)">
+        <g style="animation: fall 6001ms infinite ease-in; animation-delay: 2277ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(300.9385718411162deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1006, 0)">
+        <g style="animation: fall 7192ms infinite ease-in; animation-delay: 3965ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(283.35923299646913deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(793, 0)">
+        <g style="animation: fall 5625ms infinite ease-in; animation-delay: 4479ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(188.2663795778262deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(963, 0)">
+        <g style="animation: fall 7783ms infinite ease-in; animation-delay: 195ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(169.5885459949318deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(423, 0)">
+        <g style="animation: fall 7137ms infinite ease-in; animation-delay: 60ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(164.82775971677114deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1806, 0)">
+        <g style="animation: fall 8022ms infinite ease-in; animation-delay: 1506ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(244.53961829700222deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1830, 0)">
+        <g style="animation: fall 9609ms infinite ease-in; animation-delay: 4849ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(198.42213255973468deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(139, 0)">
+        <g style="animation: fall 6101ms infinite ease-in; animation-delay: 909ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(54.73269952831912deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1899, 0)">
+        <g style="animation: fall 6227ms infinite ease-in; animation-delay: 631ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(64.94168949981699deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1476, 0)">
+        <g style="animation: fall 9184ms infinite ease-in; animation-delay: 4842ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(315.5515883693276deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(512, 0)">
+        <g style="animation: fall 10871ms infinite ease-in; animation-delay: 2950ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(52.849590364120694deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(957, 0)">
+        <g style="animation: fall 7430ms infinite ease-in; animation-delay: 4573ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(224.9188391388684deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(678, 0)">
+        <g style="animation: fall 8104ms infinite ease-in; animation-delay: 4852ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(146.6721041895822deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(284, 0)">
+        <g style="animation: fall 10962ms infinite ease-in; animation-delay: 4024ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(46.7504098171066deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(826, 0)">
+        <g style="animation: fall 8968ms infinite ease-in; animation-delay: 2175ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(60.486155344062944deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1032, 0)">
+        <g style="animation: fall 6732ms infinite ease-in; animation-delay: 3155ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(179.82986498642325deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1180, 0)">
+        <g style="animation: fall 10815ms infinite ease-in; animation-delay: 2470ms">
+            <circle r="2.0" fill="gold" style="transform-origin: centre; transform: rotate(252.27177981464618deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(805, 0)">
+        <g style="animation: fall 9569ms infinite ease-in; animation-delay: 1651ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(354.7173601879363deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(232, 0)">
+        <g style="animation: fall 9405ms infinite ease-in; animation-delay: 3452ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(299.1469377853195deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(702, 0)">
+        <g style="animation: fall 8731ms infinite ease-in; animation-delay: 2209ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(161.4734282089597deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1026, 0)">
+        <g style="animation: fall 8284ms infinite ease-in; animation-delay: 1329ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(342.4371830339641deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1029, 0)">
+        <g style="animation: fall 5511ms infinite ease-in; animation-delay: 2205ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(231.52140191607313deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(777, 0)">
+        <g style="animation: fall 9733ms infinite ease-in; animation-delay: 4970ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(286.6402241017007deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(948, 0)">
+        <g style="animation: fall 10111ms infinite ease-in; animation-delay: 3577ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(142.27767975384006deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(568, 0)">
+        <g style="animation: fall 7655ms infinite ease-in; animation-delay: 137ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(329.6233203037659deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1775, 0)">
+        <g style="animation: fall 7812ms infinite ease-in; animation-delay: 3293ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(227.6286356784deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1514, 0)">
+        <g style="animation: fall 10067ms infinite ease-in; animation-delay: 3700ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(114.40011401361144deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1116, 0)">
+        <g style="animation: fall 7507ms infinite ease-in; animation-delay: 3236ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(35.463138666964426deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(24, 0)">
+        <g style="animation: fall 5494ms infinite ease-in; animation-delay: 157ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(73.48809132311246deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1156, 0)">
+        <g style="animation: fall 5560ms infinite ease-in; animation-delay: 1864ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(19.052367739951084deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1407, 0)">
+        <g style="animation: fall 7571ms infinite ease-in; animation-delay: 2166ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(298.03346553907704deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1560, 0)">
+        <g style="animation: fall 5017ms infinite ease-in; animation-delay: 1130ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(32.60527282360668deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1061, 0)">
+        <g style="animation: fall 7457ms infinite ease-in; animation-delay: 1696ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(131.37129321631596deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(957, 0)">
+        <g style="animation: fall 8718ms infinite ease-in; animation-delay: 4404ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(144.39946271925297deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(243, 0)">
+        <g style="animation: fall 6568ms infinite ease-in; animation-delay: 1861ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(308.69627845134795deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1251, 0)">
+        <g style="animation: fall 5880ms infinite ease-in; animation-delay: 3975ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(203.02797814430272deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1860, 0)">
+        <g style="animation: fall 7713ms infinite ease-in; animation-delay: 2019ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(119.9357653823118deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(294, 0)">
+        <g style="animation: fall 6445ms infinite ease-in; animation-delay: 4847ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(196.89876716843762deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1072, 0)">
+        <g style="animation: fall 6779ms infinite ease-in; animation-delay: 3132ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(63.67985147244022deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1762, 0)">
+        <g style="animation: fall 5533ms infinite ease-in; animation-delay: 1617ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(47.04705974878011deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1406, 0)">
+        <g style="animation: fall 9679ms infinite ease-in; animation-delay: 2726ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(198.61735776997298deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(499, 0)">
+        <g style="animation: fall 7584ms infinite ease-in; animation-delay: 1808ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(192.1272322816604deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1431, 0)">
+        <g style="animation: fall 7407ms infinite ease-in; animation-delay: 2683ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(347.75822095230444deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1713, 0)">
+        <g style="animation: fall 5423ms infinite ease-in; animation-delay: 432ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(153.65166769332095deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(6, 0)">
+        <g style="animation: fall 7632ms infinite ease-in; animation-delay: 118ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(316.60950184939543deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1000, 0)">
+        <g style="animation: fall 9139ms infinite ease-in; animation-delay: 4935ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(153.89032314113342deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1102, 0)">
+        <g style="animation: fall 10282ms infinite ease-in; animation-delay: 240ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(251.55504103040354deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(729, 0)">
+        <g style="animation: fall 7651ms infinite ease-in; animation-delay: 3402ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(185.5826054611844deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(933, 0)">
+        <g style="animation: fall 10162ms infinite ease-in; animation-delay: 2595ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(85.13237691896508deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(718, 0)">
+        <g style="animation: fall 5600ms infinite ease-in; animation-delay: 2555ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(116.09579477881101deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1197, 0)">
+        <g style="animation: fall 5273ms infinite ease-in; animation-delay: 965ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(166.98527169033483deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(574, 0)">
+        <g style="animation: fall 6931ms infinite ease-in; animation-delay: 2862ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(292.66315137181715deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(148, 0)">
+        <g style="animation: fall 9787ms infinite ease-in; animation-delay: 4970ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(11.906839588540553deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(209, 0)">
+        <g style="animation: fall 8902ms infinite ease-in; animation-delay: 1177ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(31.251866947996767deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1509, 0)">
+        <g style="animation: fall 7609ms infinite ease-in; animation-delay: 4334ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(272.7743441353323deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1540, 0)">
+        <g style="animation: fall 8688ms infinite ease-in; animation-delay: 2858ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(174.8746806747715deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(504, 0)">
+        <g style="animation: fall 6595ms infinite ease-in; animation-delay: 2400ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(336.3267970182082deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(274, 0)">
+        <g style="animation: fall 7297ms infinite ease-in; animation-delay: 1087ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(141.9847288570751deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(769, 0)">
+        <g style="animation: fall 8630ms infinite ease-in; animation-delay: 4787ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(78.08934254759575deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(104, 0)">
+        <g style="animation: fall 10031ms infinite ease-in; animation-delay: 1679ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(160.99163132260585deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(684, 0)">
+        <g style="animation: fall 6196ms infinite ease-in; animation-delay: 484ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(210.69648418577648deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(277, 0)">
+        <g style="animation: fall 10250ms infinite ease-in; animation-delay: 2329ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(14.950898815616792deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(945, 0)">
+        <g style="animation: fall 9327ms infinite ease-in; animation-delay: 95ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(194.3999299869969deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1594, 0)">
+        <g style="animation: fall 10801ms infinite ease-in; animation-delay: 2785ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(201.34530138523263deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(282, 0)">
+        <g style="animation: fall 10556ms infinite ease-in; animation-delay: 1366ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(179.64555283005168deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(549, 0)">
+        <g style="animation: fall 7477ms infinite ease-in; animation-delay: 7ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(1.834090365369332deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(589, 0)">
+        <g style="animation: fall 10758ms infinite ease-in; animation-delay: 3539ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(232.18803135412585deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1045, 0)">
+        <g style="animation: fall 9665ms infinite ease-in; animation-delay: 3241ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(341.6792762361092deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(651, 0)">
+        <g style="animation: fall 7638ms infinite ease-in; animation-delay: 296ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(250.7914798026589deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(68, 0)">
+        <g style="animation: fall 6878ms infinite ease-in; animation-delay: 1548ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(283.4441426070842deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(835, 0)">
+        <g style="animation: fall 6282ms infinite ease-in; animation-delay: 107ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(198.01821758296626deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1022, 0)">
+        <g style="animation: fall 6206ms infinite ease-in; animation-delay: 3013ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(166.31571652666364deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(235, 0)">
+        <g style="animation: fall 9933ms infinite ease-in; animation-delay: 4773ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(80.16511633700902deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(792, 0)">
+        <g style="animation: fall 6008ms infinite ease-in; animation-delay: 1806ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(203.01051976523252deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(922, 0)">
+        <g style="animation: fall 7654ms infinite ease-in; animation-delay: 3964ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(86.61503275950807deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1408, 0)">
+        <g style="animation: fall 9253ms infinite ease-in; animation-delay: 4436ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(139.02737066149223deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1287, 0)">
+        <g style="animation: fall 5497ms infinite ease-in; animation-delay: 3735ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(311.2905121478769deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(491, 0)">
+        <g style="animation: fall 7146ms infinite ease-in; animation-delay: 2609ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(260.9868895393704deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1335, 0)">
+        <g style="animation: fall 8197ms infinite ease-in; animation-delay: 57ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(195.83611912073695deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(236, 0)">
+        <g style="animation: fall 9103ms infinite ease-in; animation-delay: 2654ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(26.09683280693443deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1158, 0)">
+        <g style="animation: fall 9896ms infinite ease-in; animation-delay: 2603ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(321.4313643166933deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1750, 0)">
+        <g style="animation: fall 7546ms infinite ease-in; animation-delay: 3209ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(267.90697786600595deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(431, 0)">
+        <g style="animation: fall 9650ms infinite ease-in; animation-delay: 3568ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(136.9946960118404deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1832, 0)">
+        <g style="animation: fall 9876ms infinite ease-in; animation-delay: 4640ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(204.48522036934347deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1870, 0)">
+        <g style="animation: fall 10920ms infinite ease-in; animation-delay: 1096ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(350.8034094580513deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1439, 0)">
+        <g style="animation: fall 6489ms infinite ease-in; animation-delay: 4399ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(314.75381914563576deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1251, 0)">
+        <g style="animation: fall 9630ms infinite ease-in; animation-delay: 4116ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(277.39935008604283deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(853, 0)">
+        <g style="animation: fall 6266ms infinite ease-in; animation-delay: 993ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(178.19078545216905deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(223, 0)">
+        <g style="animation: fall 6367ms infinite ease-in; animation-delay: 1404ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(257.7075366227923deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1065, 0)">
+        <g style="animation: fall 8809ms infinite ease-in; animation-delay: 986ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(244.47423231842893deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(344, 0)">
+        <g style="animation: fall 6922ms infinite ease-in; animation-delay: 4419ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(323.0150257545774deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(948, 0)">
+        <g style="animation: fall 6626ms infinite ease-in; animation-delay: 3256ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(269.1020291576121deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1178, 0)">
+        <g style="animation: fall 6960ms infinite ease-in; animation-delay: 3123ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(332.6026721092446deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1395, 0)">
+        <g style="animation: fall 6538ms infinite ease-in; animation-delay: 4899ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(300.4317201452874deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(120, 0)">
+        <g style="animation: fall 6121ms infinite ease-in; animation-delay: 3801ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(82.11567825362896deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1313, 0)">
+        <g style="animation: fall 5075ms infinite ease-in; animation-delay: 1349ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(215.07288766450748deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1318, 0)">
+        <g style="animation: fall 6721ms infinite ease-in; animation-delay: 4226ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(194.55501706832257deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1067, 0)">
+        <g style="animation: fall 5096ms infinite ease-in; animation-delay: 3593ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(131.5780426464889deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(785, 0)">
+        <g style="animation: fall 6142ms infinite ease-in; animation-delay: 121ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(167.44484229973432deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(679, 0)">
+        <g style="animation: fall 6494ms infinite ease-in; animation-delay: 4439ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(156.1920767765434deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(180, 0)">
+        <g style="animation: fall 7767ms infinite ease-in; animation-delay: 186ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(180.55917193811433deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1404, 0)">
+        <g style="animation: fall 5134ms infinite ease-in; animation-delay: 2698ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(267.9033813911742deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1367, 0)">
+        <g style="animation: fall 9320ms infinite ease-in; animation-delay: 2332ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(324.20603907536895deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(202, 0)">
+        <g style="animation: fall 6459ms infinite ease-in; animation-delay: 4219ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(264.1640642831977deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1840, 0)">
+        <g style="animation: fall 9365ms infinite ease-in; animation-delay: 1870ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(335.81939104743765deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(967, 0)">
+        <g style="animation: fall 6353ms infinite ease-in; animation-delay: 4222ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(46.00398719402071deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1847, 0)">
+        <g style="animation: fall 6591ms infinite ease-in; animation-delay: 4610ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(238.7496154896157deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1039, 0)">
+        <g style="animation: fall 5660ms infinite ease-in; animation-delay: 3583ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(326.5641049024605deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(587, 0)">
+        <g style="animation: fall 5798ms infinite ease-in; animation-delay: 3989ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(316.3885871644185deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1605, 0)">
+        <g style="animation: fall 6059ms infinite ease-in; animation-delay: 2741ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(258.182147951184deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(91, 0)">
+        <g style="animation: fall 8701ms infinite ease-in; animation-delay: 1075ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(346.76301702501627deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(500, 0)">
+        <g style="animation: fall 8235ms infinite ease-in; animation-delay: 970ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(322.9608451098083deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(627, 0)">
+        <g style="animation: fall 6563ms infinite ease-in; animation-delay: 2152ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(268.77083858663417deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(176, 0)">
+        <g style="animation: fall 7972ms infinite ease-in; animation-delay: 838ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(301.9701269858747deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1670, 0)">
+        <g style="animation: fall 6422ms infinite ease-in; animation-delay: 3824ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(261.46785644977473deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(179, 0)">
+        <g style="animation: fall 9356ms infinite ease-in; animation-delay: 2549ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(29.274342227908065deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1908, 0)">
+        <g style="animation: fall 8406ms infinite ease-in; animation-delay: 3315ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(0.10748536393642372deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1902, 0)">
+        <g style="animation: fall 10577ms infinite ease-in; animation-delay: 907ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(73.03832300323259deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(51, 0)">
+        <g style="animation: fall 6897ms infinite ease-in; animation-delay: 2348ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(283.1695939695743deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(869, 0)">
+        <g style="animation: fall 6680ms infinite ease-in; animation-delay: 3954ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(22.291182647233686deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(140, 0)">
+        <g style="animation: fall 10131ms infinite ease-in; animation-delay: 3866ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(257.7798747767403deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(382, 0)">
+        <g style="animation: fall 10827ms infinite ease-in; animation-delay: 600ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(193.82033208564354deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1760, 0)">
+        <g style="animation: fall 7591ms infinite ease-in; animation-delay: 3074ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(165.51655314096556deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1228, 0)">
+        <g style="animation: fall 6098ms infinite ease-in; animation-delay: 74ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(27.396664633949577deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(277, 0)">
+        <g style="animation: fall 5852ms infinite ease-in; animation-delay: 4895ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(208.0488344186538deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(988, 0)">
+        <g style="animation: fall 5355ms infinite ease-in; animation-delay: 3592ms">
+            <circle r="8.5" fill="gold" style="transform-origin: centre; transform: rotate(158.50825426833634deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(209, 0)">
+        <g style="animation: fall 6730ms infinite ease-in; animation-delay: 2423ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(143.02174087387093deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(930, 0)">
+        <g style="animation: fall 7787ms infinite ease-in; animation-delay: 1677ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(49.48663035595472deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1174, 0)">
+        <g style="animation: fall 5523ms infinite ease-in; animation-delay: 2018ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(195.16694795138113deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1530, 0)">
+        <g style="animation: fall 10572ms infinite ease-in; animation-delay: 1851ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(283.2250676445537deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1854, 0)">
+        <g style="animation: fall 5059ms infinite ease-in; animation-delay: 1059ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(178.41758455440163deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(961, 0)">
+        <g style="animation: fall 5321ms infinite ease-in; animation-delay: 3951ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(163.59764801420098deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(963, 0)">
+        <g style="animation: fall 8393ms infinite ease-in; animation-delay: 459ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(220.41145337990517deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(655, 0)">
+        <g style="animation: fall 7536ms infinite ease-in; animation-delay: 841ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(157.95181873186323deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(822, 0)">
+        <g style="animation: fall 7178ms infinite ease-in; animation-delay: 1538ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(296.0296361841078deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1909, 0)">
+        <g style="animation: fall 6453ms infinite ease-in; animation-delay: 2013ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(145.06178293058008deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(128, 0)">
+        <g style="animation: fall 8368ms infinite ease-in; animation-delay: 3052ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(150.01529037986876deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1579, 0)">
+        <g style="animation: fall 10352ms infinite ease-in; animation-delay: 1886ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(212.32149442299126deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1063, 0)">
+        <g style="animation: fall 5837ms infinite ease-in; animation-delay: 3789ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(199.36254243798368deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(598, 0)">
+        <g style="animation: fall 10915ms infinite ease-in; animation-delay: 3917ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(59.722632794294846deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1787, 0)">
+        <g style="animation: fall 10380ms infinite ease-in; animation-delay: 4597ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(162.36055211206394deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1044, 0)">
+        <g style="animation: fall 5589ms infinite ease-in; animation-delay: 3851ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(25.13910594569452deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1821, 0)">
+        <g style="animation: fall 10186ms infinite ease-in; animation-delay: 3298ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(120.66402054862301deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1251, 0)">
+        <g style="animation: fall 8263ms infinite ease-in; animation-delay: 1899ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(156.78862294616042deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1448, 0)">
+        <g style="animation: fall 7199ms infinite ease-in; animation-delay: 3477ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(235.8544651597969deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(735, 0)">
+        <g style="animation: fall 7359ms infinite ease-in; animation-delay: 559ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(247.64232110444325deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(752, 0)">
+        <g style="animation: fall 9957ms infinite ease-in; animation-delay: 4575ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(317.2837833902149deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(238, 0)">
+        <g style="animation: fall 8701ms infinite ease-in; animation-delay: 3535ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(129.76622706864265deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(576, 0)">
+        <g style="animation: fall 5007ms infinite ease-in; animation-delay: 4960ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(106.06588682062143deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(908, 0)">
+        <g style="animation: fall 10348ms infinite ease-in; animation-delay: 1425ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(97.1246998848822deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1914, 0)">
+        <g style="animation: fall 10638ms infinite ease-in; animation-delay: 3561ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(332.7730907309979deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1330, 0)">
+        <g style="animation: fall 7453ms infinite ease-in; animation-delay: 1756ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(27.626357363058315deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(952, 0)">
+        <g style="animation: fall 5853ms infinite ease-in; animation-delay: 1889ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(7.349828822245539deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1428, 0)">
+        <g style="animation: fall 7627ms infinite ease-in; animation-delay: 1910ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(38.09207185803463deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(846, 0)">
+        <g style="animation: fall 6503ms infinite ease-in; animation-delay: 882ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(275.2810578499706deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1442, 0)">
+        <g style="animation: fall 10920ms infinite ease-in; animation-delay: 2119ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(195.43979146448243deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(201, 0)">
+        <g style="animation: fall 10824ms infinite ease-in; animation-delay: 1753ms">
+            <circle r="3.0" fill="gold" style="transform-origin: centre; transform: rotate(343.14152213246155deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1152, 0)">
+        <g style="animation: fall 6829ms infinite ease-in; animation-delay: 2879ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(358.2190202663687deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(154, 0)">
+        <g style="animation: fall 8329ms infinite ease-in; animation-delay: 448ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(195.13860282588047deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1403, 0)">
+        <g style="animation: fall 10718ms infinite ease-in; animation-delay: 4337ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(301.2979317821704deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(200, 0)">
+        <g style="animation: fall 9748ms infinite ease-in; animation-delay: 2731ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(299.9958562068038deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(930, 0)">
+        <g style="animation: fall 9879ms infinite ease-in; animation-delay: 1930ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(31.613844124001925deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(483, 0)">
+        <g style="animation: fall 6599ms infinite ease-in; animation-delay: 972ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(245.10943860261062deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(618, 0)">
+        <g style="animation: fall 7210ms infinite ease-in; animation-delay: 2510ms">
+            <circle r="7.5" fill="gold" style="transform-origin: centre; transform: rotate(237.19373974458662deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(942, 0)">
+        <g style="animation: fall 9671ms infinite ease-in; animation-delay: 812ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(250.55637300979066deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(879, 0)">
+        <g style="animation: fall 9845ms infinite ease-in; animation-delay: 4384ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(132.24707861816213deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(940, 0)">
+        <g style="animation: fall 10447ms infinite ease-in; animation-delay: 2169ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(70.92151921924719deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1154, 0)">
+        <g style="animation: fall 10257ms infinite ease-in; animation-delay: 3554ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(116.560690083564deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1671, 0)">
+        <g style="animation: fall 6188ms infinite ease-in; animation-delay: 4648ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(60.286177917951356deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1058, 0)">
+        <g style="animation: fall 8684ms infinite ease-in; animation-delay: 25ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(31.048221649541404deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(27, 0)">
+        <g style="animation: fall 7153ms infinite ease-in; animation-delay: 3163ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(82.76578838573103deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(305, 0)">
+        <g style="animation: fall 9520ms infinite ease-in; animation-delay: 4932ms">
+            <circle r="4.0" fill="gold" style="transform-origin: centre; transform: rotate(198.44975453408736deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(272, 0)">
+        <g style="animation: fall 5667ms infinite ease-in; animation-delay: 2338ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(2.5096420671203212deg); opacity: 1.0;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(773, 0)">
+        <g style="animation: fall 6048ms infinite ease-in; animation-delay: 3160ms">
+            <circle r="7.0" fill="gold" style="transform-origin: centre; transform: rotate(9.078226713512002deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(528, 0)">
+        <g style="animation: fall 6619ms infinite ease-in; animation-delay: 3701ms">
+            <circle r="8.0" fill="gold" style="transform-origin: centre; transform: rotate(160.6006258375227deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(511, 0)">
+        <g style="animation: fall 6806ms infinite ease-in; animation-delay: 2825ms">
+            <circle r="5.0" fill="gold" style="transform-origin: centre; transform: rotate(120.80642445999548deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1247, 0)">
+        <g style="animation: fall 6086ms infinite ease-in; animation-delay: 3866ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(215.3445512346489deg); opacity: 0.84;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(966, 0)">
+        <g style="animation: fall 9064ms infinite ease-in; animation-delay: 3205ms">
+            <circle r="6.5" fill="gold" style="transform-origin: centre; transform: rotate(117.9977717138101deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(676, 0)">
+        <g style="animation: fall 9454ms infinite ease-in; animation-delay: 952ms">
+            <circle r="2.5" fill="gold" style="transform-origin: centre; transform: rotate(259.3098893422949deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(329, 0)">
+        <g style="animation: fall 9158ms infinite ease-in; animation-delay: 86ms">
+            <circle r="6.0" fill="gold" style="transform-origin: centre; transform: rotate(131.06518366938184deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1387, 0)">
+        <g style="animation: fall 7119ms infinite ease-in; animation-delay: 223ms">
+            <circle r="3.5" fill="gold" style="transform-origin: centre; transform: rotate(54.391054129336226deg); opacity: 0.68;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(638, 0)">
+        <g style="animation: fall 10515ms infinite ease-in; animation-delay: 2931ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(64.50135821008277deg); opacity: 0.2;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1055, 0)">
+        <g style="animation: fall 8438ms infinite ease-in; animation-delay: 3767ms">
+            <circle r="5.5" fill="gold" style="transform-origin: centre; transform: rotate(64.10465636570065deg); opacity: 0.52;" />
+        </g>
+    </g>
+    
+
+    <g transform="translate(1251, 0)">
+        <g style="animation: fall 9462ms infinite ease-in; animation-delay: 1745ms">
+            <circle r="4.5" fill="gold" style="transform-origin: centre; transform: rotate(10.24420701600918deg); opacity: 0.36;" />
+        </g>
+    </g>
+    
+    <!-- <path style="animation: fall 5000ms infinite ease-in" d="M 10 10 C 20 20, 40 20, 50 10" stroke="black" fill="transparent"/> -->
+</svg>
+
