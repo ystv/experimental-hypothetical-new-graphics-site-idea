@@ -71,7 +71,7 @@ pipeline {
         ], wait: true
         deployPreview action: 'cleanup'
         deployPreview action: 'cleanupMerge'
-        // sh "nomad alloc exec -task graphics-dev -job graphics-dev npx -y prisma migrate deploy --schema lib/db/schema.prisma"
+        sh "nomad alloc exec -task graphics-dev -job graphics-dev npx -y prisma migrate deploy"
       }
     }
 
@@ -85,7 +85,7 @@ pipeline {
           string(name: 'JOB_FILE', value: 'graphics-prod.nomad'),
           text(name: 'TAG_REPLACEMENTS', value: "registry.comp.ystv.co.uk/ystv/graphics:${imageTag}")
         ], wait: true
-        // sh "nomad alloc exec -task graphics-prod -job graphics-prod npx -y prisma migrate deploy --schema lib/db/schema.prisma"
+        sh "nomad alloc exec -task graphics-prod -job graphics-prod npx -y prisma migrate deploy"
       }
     }
   }
