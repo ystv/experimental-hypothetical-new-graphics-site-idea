@@ -7,6 +7,7 @@ import {
   Card,
   Group,
   HoverCard,
+  NavLink,
   Text,
 } from "@mantine/core";
 import { useClipboard, useDisclosure } from "@mantine/hooks";
@@ -15,8 +16,12 @@ import { useSession } from "next-auth/react";
 import type { ReactNode } from "react";
 import { useWebsocket } from "./websocket-provider";
 import { notifications } from "@mantine/notifications";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export function AppLayout(props: { children: ReactNode }) {
+  const pathname = usePathname();
+
   const [mobileOpened, { toggle: toggleMobile }] = useDisclosure();
   const [desktopOpened, { toggle: toggleDesktop }] = useDisclosure(true);
 
@@ -98,7 +103,26 @@ export function AppLayout(props: { children: ReactNode }) {
             </Group>
           </Group>
         </AppShell.Header>
-        <AppShell.Navbar p="md"></AppShell.Navbar>
+        <AppShell.Navbar p="md">
+          <NavLink
+            component={Link}
+            href={"/outputs"}
+            label={"Outputs"}
+            active={pathname == "/outputs"}
+          />
+          <NavLink
+            component={Link}
+            href={"/eventTypes"}
+            label={"Event Types"}
+            active={pathname == "/eventTypes"}
+          />
+          <NavLink
+            component={Link}
+            href={"/events"}
+            label={"Events"}
+            active={pathname == "/events"}
+          />
+        </AppShell.Navbar>
         <AppShell.Main>{props.children}</AppShell.Main>
       </AppShell>
     </QueryClientProvider>

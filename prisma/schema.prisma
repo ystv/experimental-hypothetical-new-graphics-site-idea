@@ -2,137 +2,221 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-    provider = "prisma-client-js"
+  provider = "prisma-client-js"
+}
+
+generator json {
+  provider = "prisma-json-types-generator"
 }
 
 datasource db {
-    provider = "postgresql"
-    // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
-    // Further reading:
-    // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
-    // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
-    url      = env("DATABASE_URL")
+  provider = "postgresql"
+  // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
+  // Further reading:
+  // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
+  // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
+  url      = env("DATABASE_URL")
 }
 
-
 model Question {
-    id String @id @default(cuid())
-    text String
+  id   String @id @default(cuid())
+  text String
 
-    order Int
+  order Int
 
-    output_id Int
-    output Output @relation(fields: [output_id], references: [id])
+  output_id Int
+  output    Output @relation(fields: [output_id], references: [id])
 
-    QuestionOutput QuestionOutput?
+  QuestionOutput QuestionOutput?
 
-    @@map("questions")
+  @@map("questions")
 }
 
 model Output {
-    id Int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
 
-    questions Question[]
+  questions Question[]
 
-    active_link QuestionOutput?
+  active_link QuestionOutput?
 }
 
 model QuestionOutput {
-    output_id Int @unique
-    output Output @relation(fields: [output_id], references: [id])
+  output_id Int    @unique
+  output    Output @relation(fields: [output_id], references: [id])
 
-    question_id String? @unique
-    question Question? @relation(fields: [question_id], references: [id], onDelete: SetNull)
+  question_id String?   @unique
+  question    Question? @relation(fields: [question_id], references: [id], onDelete: SetNull)
 }
 
 model YDCOutput {
-    id Int @id @default(autoincrement())
+  id Int @id @default(autoincrement())
 
-    section_id String?
-    section YDCSection? @relation(fields: [section_id], references: [id])
+  section_id String?
+  section    YDCSection? @relation(fields: [section_id], references: [id])
 
-    team_id String?
-    team YDCTeam? @relation(fields: [team_id], references: [id])
+  team_id String?
+  team    YDCTeam? @relation(fields: [team_id], references: [id])
 }
 
 model YDCSection {
-    id String @id @default(cuid())
+  id String @id @default(cuid())
 
-    name String
+  name String
 
-    outputs YDCOutput[]
+  outputs YDCOutput[]
 }
 
 model YDCTeam {
-    id String @id @default(cuid())
+  id String @id @default(cuid())
 
-    name String
+  name String
 
-    outputs YDCOutput[]
+  outputs YDCOutput[]
+}
+
+model Layer {
+  id String @id @default(cuid())
+
+  /// [LayerStyle]
+  style Json?
+
+  @@map("layers")
+}
+
+model EventType {
+  id String @id @default(cuid())
+
+  name String
+
+  /// [EventTypeMultiTextSkeleton]
+  multi_text_skeleton Json
+
+  children Event[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("event_types")
+}
+
+model Event {
+  id String @id @default(cuid())
+
+  name String
+
+  type_id String
+  type    EventType @relation(fields: [type_id], references: [id])
+
+  multi_texts MultiText[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt()
+
+  @@map("events")
+}
+
+model MultiText {
+  id String @id @default(cuid())
+
+  name String?
+
+  path String
+
+  event_id String
+  event    Event  @relation(fields: [event_id], references: [id])
+
+  options MultiTextOption[]
+
+  multi_text_selected MultiTextSelected?
+
+  @@unique([event_id, path])
+  @@map("multi_texts")
+}
+
+model MultiTextSelected {
+  multi_text_id String    @unique
+  multi_text    MultiText @relation(fields: [multi_text_id], references: [id])
+
+  selected_option_id String
+  selected_option    MultiTextOption @relation(fields: [selected_option_id], references: [id])
+
+  @@map("multi_texts_selected")
+}
+
+model MultiTextOption {
+  id String @id @default(cuid())
+
+  content String
+
+  multi_text_id       String
+  multi_text          MultiText           @relation(fields: [multi_text_id], references: [id])
+  multi_text_selected MultiTextSelected[]
+
+  @@map("multi_text_options")
 }
 
 model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+  id        Int      @id @default(autoincrement())
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
-    createdBy   User   @relation(fields: [createdById], references: [id])
-    createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+  createdById String
 
-    @@index([name])
-    @@map("posts")
+  @@index([name])
+  @@map("posts")
 }
 
 // Necessary for Next auth
 model Account {
-    id                       String  @id @default(cuid())
-    userId                   String
-    type                     String
-    provider                 String
-    providerAccountId        String
-    refresh_token            String? // @db.Text
-    access_token             String? // @db.Text
-    expires_at               Int?
-    token_type               String?
-    scope                    String?
-    id_token                 String? // @db.Text
-    session_state            String?
-    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
-    refresh_token_expires_in Int?
+  id                       String  @id @default(cuid())
+  userId                   String
+  type                     String
+  provider                 String
+  providerAccountId        String
+  refresh_token            String? // @db.Text
+  access_token             String? // @db.Text
+  expires_at               Int?
+  token_type               String?
+  scope                    String?
+  id_token                 String? // @db.Text
+  session_state            String?
+  user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  refresh_token_expires_in Int?
 
-    @@unique([provider, providerAccountId])
-    @@map("accounts")
+  @@unique([provider, providerAccountId])
+  @@map("accounts")
 }
 
 model Session {
-    id           String   @id @default(cuid())
-    sessionToken String   @unique
-    userId       String
-    expires      DateTime
-    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-    @@map("sessions")
+  @@map("sessions")
 }
 
 model User {
-    id            String    @id @default(cuid())
-    name          String?
-    email         String?   @unique
-    emailVerified DateTime?
-    image         String?
-    accounts      Account[]
-    sessions      Session[]
-    posts         Post[]
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  accounts      Account[]
+  sessions      Session[]
+  posts         Post[]
 
-    @@map("users")
+  @@map("users")
 }
 
 model VerificationToken {
-    identifier String
-    token      String   @unique
-    expires    DateTime
+  identifier String
+  token      String   @unique
+  expires    DateTime
 
-    @@unique([identifier, token])
-    @@map("verification_tokens")
+  @@unique([identifier, token])
+  @@map("verification_tokens")
 }
