@@ -5,8 +5,7 @@ import {
   protectedProcedure,
   publicProcedure,
 } from "@/server/api/trpc";
-import { io, serverGlobals } from "@/server/socket";
-import { Server } from "socket.io";
+import { serverGlobals } from "@/server/socket";
 
 export const ydcOutputRouter = createTRPCRouter({
   getAll: publicProcedure.query(({ ctx }) => {

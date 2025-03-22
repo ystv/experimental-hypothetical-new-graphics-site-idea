@@ -1,7 +1,6 @@
 "use client";
 
 import { useWebsocket } from "@/app/_components/websocket-provider";
-import { api } from "@/trpc/react";
 import Image from "next/image";
 
 export default function FullscreenText() {

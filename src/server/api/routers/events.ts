@@ -7,7 +7,7 @@ import {
 } from "@/server/api/trpc";
 import { TRPCError } from "@trpc/server";
 import { serverGlobals } from "@/server/socket";
-import { EventType } from "@prisma/client";
+import { type EventType } from "@prisma/client";
 
 export const eventsRouter = createTRPCRouter({
   create: protectedProcedure
@@ -69,7 +69,7 @@ export const eventsRouter = createTRPCRouter({
             id: input.event_id,
           },
         });
-      } catch (e) {
+      } catch (_e) {
         throw new TRPCError({
           code: "NOT_FOUND",
         });

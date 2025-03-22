@@ -40,7 +40,7 @@ export const eventTypesRouter = createTRPCRouter({
             id: input.event_type_id,
           },
         });
-      } catch (e) {
+      } catch (_e) {
         throw new TRPCError({
           code: "NOT_FOUND",
         });

@@ -3,19 +3,13 @@
 import Layer from "@/app/_components/graphics/layer";
 import { useWebsocket } from "@/app/_components/websocket-provider";
 import { api } from "@/trpc/react";
-import {
-  Button,
-  Card,
-  Center,
-  Group,
-  Loader,
-  Stack,
-  Table,
-  Text,
-  Title,
-} from "@mantine/core";
 import Image from "next/image";
-import { DetailedHTMLProps, HTMLAttributes, use, useEffect } from "react";
+import {
+  type DetailedHTMLProps,
+  type HTMLAttributes,
+  use,
+  useEffect,
+} from "react";
 
 export default function SingleEventPage({
   params,

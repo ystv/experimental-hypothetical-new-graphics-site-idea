@@ -81,7 +81,7 @@ export default function EventTypesPage() {
           <Card key={eventType.id} withBorder>
             <Stack>
               <Title>{eventType.name}</Title>
-              {eventType.multi_text_skeleton.map((multiTextSkeleton, idx) => {
+              {eventType.multi_text_skeleton.map((multiTextSkeleton) => {
                 return (
                   <Group key={multiTextSkeleton.path}>
                     <Text>{multiTextSkeleton.name}</Text>

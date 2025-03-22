@@ -4,7 +4,6 @@ import {
   AppShell,
   Badge,
   Burger,
-  Card,
   Group,
   HoverCard,
   NavLink,

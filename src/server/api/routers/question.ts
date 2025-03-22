@@ -5,8 +5,6 @@ import {
   protectedProcedure,
   publicProcedure,
 } from "@/server/api/trpc";
-// import { io } from "@/server/socket";
-import { Server } from "socket.io";
 import { serverGlobals } from "@/server/socket";
 
 export const questionRouter = createTRPCRouter({

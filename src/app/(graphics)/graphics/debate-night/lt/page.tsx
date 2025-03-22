@@ -1,6 +1,6 @@
 import Layer from "@/app/_components/graphics/layer";
 import Image from "next/image";
-import { DetailedHTMLProps, HTMLAttributes, ReactNode } from "react";
+import { type DetailedHTMLProps, type HTMLAttributes } from "react";
 
 export default function LowerThirdPage() {
   const layers: DetailedHTMLProps<

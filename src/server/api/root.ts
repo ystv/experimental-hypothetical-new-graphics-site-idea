@@ -1,9 +1,9 @@
-import { postRouter } from "@/server/api/routers/post";
 import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
 import { fullscreenRouter } from "./routers/fullscreen";
 import { questionRouter } from "./routers/question";
 import { outputRouter } from "./routers/output";
 import { ydcRouter } from "./routers/ydc";
+import { obsRouter } from "./routers/obs";
 import { eventTypesRouter } from "./routers/eventTypes";
 import { eventsRouter } from "./routers/events";
 import { mtOptionsRouter } from "./routers/mtOptions";
@@ -16,10 +16,10 @@ import { mtOptionsRouter } from "./routers/mtOptions";
 export const appRouter = createTRPCRouter({
   eventTypes: eventTypesRouter,
   events: eventsRouter,
-  post: postRouter,
   fullscreen: fullscreenRouter,
   mtOptions: mtOptionsRouter,
   question: questionRouter,
+  obs: obsRouter,
   output: outputRouter,
   ydc: ydcRouter,
 });

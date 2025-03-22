@@ -5,10 +5,9 @@ import { TextField } from "@/app/_components/form-fields/text";
 import { useWebsocket } from "@/app/_components/websocket-provider";
 import { schemas } from "@/server/api/schemas";
 import { api } from "@/trpc/react";
-import { Button, Card, Group, Modal, Stack, Text, Title } from "@mantine/core";
+import { Button, Card, Group, Modal, Stack, Title } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
 function CreateEventForm(props: { onSuccess: () => void }) {
@@ -70,8 +69,6 @@ export default function EventTypesPage() {
   const events = api.events.readMany.useQuery();
 
   const { socket } = useWebsocket();
-
-  const router = useRouter();
 
   useEffect(() => {
     function onCurrentQuestionUpdate() {
