@@ -58,4 +58,26 @@ export const mtOptionsRouter = createTRPCRouter({
 
       serverGlobals.io.emit(`update:event:${res.multi_text.event.id}`);
     }),
+
+  update: protectedProcedure
+    .input(schemas.mtOptions.update.input)
+    .mutation(async ({ ctx, input }) => {
+      const res = await ctx.db.multiTextOption.update({
+        where: {
+          id: input.multi_text_option_id,
+        },
+        data: {
+          content: input.content,
+        },
+        select: {
+          multi_text: {
+            select: {
+              event: true,
+            },
+          },
+        },
+      });
+
+      serverGlobals.io.emit(`update:event:${res.multi_text.event.id}`);
+    }),
 });

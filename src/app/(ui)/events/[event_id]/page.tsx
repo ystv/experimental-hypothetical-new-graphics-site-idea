@@ -10,6 +10,7 @@ import {
   Center,
   Group,
   Loader,
+  LoadingOverlay,
   Modal,
   Stack,
   Table,
@@ -64,6 +65,60 @@ function CreateMultiTextOptionForm(props: {
   );
 }
 
+function UpdateMultiTextOptionForm(props: {
+  onSuccess: () => void;
+  multi_text_option_id?: string;
+  initialContent: string;
+}) {
+  const updateMtOption = api.mtOptions.update.useMutation();
+
+  if (!props.multi_text_option_id) {
+    return <LoadingOverlay />;
+  }
+
+  return (
+    <Form
+      schema={schemas.mtOptions.update.input.omit({
+        multi_text_option_id: true,
+      })}
+      action={async (data) => {
+        const success = await new Promise<boolean>((resolve) => {
+          updateMtOption.mutate(
+            { ...data, multi_text_option_id: props.multi_text_option_id! },
+            {
+              onSuccess: () => {
+                console.log("Success");
+                resolve(true);
+              },
+              onError: () => {
+                console.log("Error");
+                resolve(false);
+              },
+              onSettled: () => console.log("Settled"),
+            },
+          );
+        });
+        if (!success) {
+          return {
+            ok: success,
+            errors: { root: updateMtOption.error?.message },
+          };
+        }
+        return { ok: true, data: updateMtOption.data! };
+      }}
+      onSuccess={props.onSuccess}
+      initialValues={{ content: props.initialContent }}
+    >
+      <TextField
+        name="content"
+        label="Content"
+        placeholder="Bossman Redfighter"
+        required
+      />
+    </Form>
+  );
+}
+
 export default function SingleEventPage({
   params,
 }: {
@@ -96,6 +151,9 @@ export default function SingleEventPage({
   });
 
   const [mtIdAdding, setMtIdAdding] = useState<string | undefined>();
+  const [mtOptionUpdating, setMtOptionUpdating] = useState<
+    string | undefined
+  >();
 
   const selectMtOption = api.mtOptions.select.useMutation();
 
@@ -147,6 +205,18 @@ export default function SingleEventPage({
                     {mt.options.map((opt) => {
                       return (
                         <Table.Tr key={opt.id}>
+                          <Modal
+                            opened={mtOptionUpdating === opt.id}
+                            onClose={() => setMtOptionUpdating(undefined)}
+                          >
+                            <UpdateMultiTextOptionForm
+                              onSuccess={() => {
+                                setMtOptionUpdating(undefined);
+                              }}
+                              multi_text_option_id={opt.id}
+                              initialContent={opt.content}
+                            />
+                          </Modal>
                           <Table.Td>
                             <Group>
                               <Text>{opt.content}</Text>
@@ -164,6 +234,11 @@ export default function SingleEventPage({
                                 }
                               >
                                 Select
+                              </Button>
+                              <Button
+                                onClick={() => setMtOptionUpdating(opt.id)}
+                              >
+                                Edit
                               </Button>
                             </Group>
                           </Table.Td>
