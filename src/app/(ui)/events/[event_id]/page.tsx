@@ -1,6 +1,9 @@
 "use client";
 
 import { Form, TextField } from "@/app/_components/form";
+import { SocietyControl } from "@/app/_components/society-control";
+import { TimerControl } from "@/app/_components/timer-control";
+import { VisibleStateControl } from "@/app/_components/visible-state-control";
 import { useWebsocket } from "@/app/_components/websocket-provider";
 import { schemas } from "@/server/api/schemas";
 import { api } from "@/trpc/react";
@@ -171,6 +174,29 @@ export default function SingleEventPage({
     <>
       <Title>{eventState.name}</Title>
       <Stack>
+        <Title order={3}>Visible States</Title>
+        {eventState.visible_states.map((vs) => {
+          return (
+            <VisibleStateControl
+              key={vs.id}
+              event_id={eventState.id}
+              path={vs.path}
+            />
+          );
+        })}
+        <Title order={3}>Timers</Title>
+        {eventState.timers.map((t) => {
+          return (
+            <TimerControl key={t.id} event_id={eventState.id} path={t.path} />
+          );
+        })}
+        <Title order={3}>Societies</Title>
+        {eventState.societies.map((s) => {
+          return (
+            <SocietyControl key={s.id} event_id={eventState.id} path={s.path} />
+          );
+        })}
+        <Title order={3}>Multi Texts</Title>
         {eventState.multi_texts.map((mt) => {
           return (
             <Card key={mt.id} withBorder>
@@ -188,13 +214,14 @@ export default function SingleEventPage({
               <Group>
                 <Text>{mt.name}</Text>
                 <Text c="dimmed">{mt.path}</Text>
+                <Button
+                  onClick={() => setMtIdAdding(mtIdAdding ?? mt.id)}
+                  ml={"auto"}
+                >
+                  Add Option
+                </Button>
               </Group>
               <Stack>
-                <Group>
-                  <Button onClick={() => setMtIdAdding(mtIdAdding ?? mt.id)}>
-                    Add Option
-                  </Button>
-                </Group>
                 <Table striped>
                   <Table.Thead>
                     <Table.Tr>

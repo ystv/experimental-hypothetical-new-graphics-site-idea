@@ -7,24 +7,19 @@ import {
 } from "@/server/api/trpc";
 import { TRPCError } from "@trpc/server";
 import { serverGlobals } from "@/server/socket";
+import { schemas } from "../schemas";
 
 export const eventTypesRouter = createTRPCRouter({
   create: protectedProcedure
-    .input(z.object({ name: z.string().min(1) }))
+    .input(schemas.eventTypes.create.input)
     .mutation(async ({ ctx, input }) => {
       await ctx.db.eventType.create({
         data: {
           name: input.name,
-          multi_text_skeleton: [
-            {
-              name: "Name",
-              path: "name",
-            },
-            {
-              name: "Description",
-              path: "extra_info",
-            },
-          ],
+          multi_text_skeleton: input.multi_text_skeleton,
+          timer_skeleton: input.timer_skeleton,
+          visible_state_skeleton: input.visible_state_skeleton,
+          society_skeleton: input.society_skeleton,
         },
       });
 

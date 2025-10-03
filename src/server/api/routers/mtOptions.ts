@@ -51,12 +51,16 @@ export const mtOptionsRouter = createTRPCRouter({
           multi_text: {
             select: {
               event: true,
+              path: true,
             },
           },
         },
       });
 
       serverGlobals.io.emit(`update:event:${res.multi_text.event.id}`);
+      serverGlobals.io.emit(
+        `update:multi_text:${res.multi_text.event.id}:${res.multi_text.path}`,
+      );
     }),
 
   update: protectedProcedure

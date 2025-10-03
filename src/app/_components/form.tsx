@@ -7,10 +7,11 @@ import {
 } from "react-hook-form";
 import { type z, type ZodEffects, type ZodTypeAny } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import React, { useCallback, useTransition } from "react";
-import { Button, type DefaultMantineColor } from "@mantine/core";
+import React, { useCallback, useState, useTransition } from "react";
+import { Button, Group, type DefaultMantineColor } from "@mantine/core";
 
 export * from "./form-fields/array";
+export * from "./form-fields/name-path";
 export * from "./form-fields/select";
 export * from "./form-fields/text";
 
@@ -30,6 +31,13 @@ export type FormAction<
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   Fields extends FieldValues = any,
 > = (data: Fields) => Promise<FormResponse<OK, Fields>>;
+
+const useForceUpdate = () => {
+  const [, setState] = useState(true);
+  return useCallback(() => {
+    setState((s) => !s);
+  }, []);
+};
 
 export function Form<
   Schema extends ZodTypeAny | ZodEffects<ZodTypeAny>,
@@ -52,6 +60,7 @@ export function Form<
 
   const [isSubmitting, startSubmitting] = useTransition();
   const { action, onSuccess } = props;
+  const forceUpdate = useForceUpdate();
   const submitHandler = useCallback(async () => {
     const valid = await form.trigger();
     if (valid) {
@@ -97,17 +106,34 @@ export function Form<
         )}
         {props.children}
         <br />
-        <div className="text-right">
+        <Group>
           <Button
             type="submit"
             disabled={!form.formState.isValid}
             loading={isSubmitting}
             color={props.submitColor}
+            ml={"auto"}
           >
             {props.submitLabel ?? "Submit"}
           </Button>
-        </div>
+        </Group>
       </form>
+      <pre className="mt-4 text-xs text-gray-500">
+        Debug: form state: {JSON.stringify(form.formState, null, 2)}
+        <br />
+        isValid: {JSON.stringify(form.formState.isValid)}
+        <br />
+        isDirty: {JSON.stringify(form.formState.isDirty)}
+        <br />
+        {/* values: {JSON.stringify(form.getValues(), null, 2)} */}
+        <br />
+        validated:{" "}
+        {JSON.stringify(props.schema.safeParse(form.getValues()), null, 2)}{" "}
+        <br />
+        <Button size="small" color="light" onClick={forceUpdate}>
+          Force update
+        </Button>
+      </pre>
     </FormProvider>
   );
 }

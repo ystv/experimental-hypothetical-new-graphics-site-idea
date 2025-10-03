@@ -1,7 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
 import { z } from "zod";
 import { useParams } from "next/navigation";
 import { api } from "@/trpc/react";
@@ -28,6 +26,7 @@ export default function HoldingCardPage() {
           opacity: 1,
           zIndex: 1,
           backgroundColor: "#000",
+          borderRadius: "50px",
           // backgroundImage: "url(/ydc_snow.svg)",
         }}
       />
@@ -40,11 +39,13 @@ export default function HoldingCardPage() {
           left: "5%",
           opacity: 0.5,
           zIndex: 2,
+          borderRadius: "50px",
           // backgroundColor: "#000",
-          backgroundImage: "url(/ydc_snow.svg)",
+          backgroundImage: "url(/sabbs-cd-background.jpg)",
+          backgroundPosition: "center",
         }}
       />
-      <div
+      {/* <div
         style={{
           position: "absolute",
           bottom: "4%",
@@ -59,7 +60,7 @@ export default function HoldingCardPage() {
           src={"/ydc_logo.png"}
           alt={"This is a graphics site, I don't need alt text"}
         />
-      </div>
+      </div> */}
       <div
         style={{
           position: "absolute",

@@ -89,7 +89,13 @@ model EventType {
   name String
 
   /// [EventTypeMultiTextSkeleton]
-  multi_text_skeleton Json
+  multi_text_skeleton Json @default("[]")
+  /// [EventTypeTimerSkeleton]
+  timer_skeleton Json @default("[]")
+  /// [EventTypeVisibleStateSkeleton]
+  visible_state_skeleton Json @default("[]")
+  /// [EventTypeSocietySkeleton]
+  society_skeleton Json @default("[]")
 
   children Event[]
 
@@ -108,6 +114,9 @@ model Event {
   type    EventType @relation(fields: [type_id], references: [id])
 
   multi_texts MultiText[]
+  timers Timer[]
+  visible_states VisibleState[]
+  societies   Society[]
 
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt()
@@ -153,6 +162,57 @@ model MultiTextOption {
   multi_text_selected MultiTextSelected[]
 
   @@map("multi_text_options")
+}
+
+model VisibleState {
+  id String @id @default(cuid())
+
+  name String?
+  path String
+
+  visible Boolean
+
+  event_id String
+  event Event  @relation(fields: [event_id], references: [id])
+
+  @@unique([event_id, path])
+  @@map("visible_states")
+}
+
+model Timer {
+  id String @id @default(cuid())
+
+  name String?
+  path String
+
+  duration_seconds Int
+  allow_overtime Boolean @default(false)
+  countdown Boolean @default(true)
+  ends_at DateTime
+  paused Boolean?
+  paused_at_seconds Int?
+
+  event_id String
+  event Event  @relation(fields: [event_id], references: [id])
+
+  @@unique([event_id, path])
+  @@map("timers")
+}
+
+model Society {
+  id String @id @default(cuid())
+
+  name String?
+
+  path String
+
+  event_id String
+  event    Event  @relation(fields: [event_id], references: [id])
+
+  society_selected Int?
+
+  @@unique([event_id, path])
+  @@map("societies")
 }
 
 model Post {

@@ -57,6 +57,41 @@ export const eventsRouter = createTRPCRouter({
         }
       }
 
+      for (const timer_skel of eventType.timer_skeleton) {
+        await ctx.db.timer.create({
+          data: {
+            event: { connect: { id: event.id } },
+            path: timer_skel.path,
+            name: timer_skel.name,
+            duration_seconds: timer_skel.default_duration_seconds ?? 60,
+            ends_at: new Date(Date.now() + 60000),
+            paused: true,
+            paused_at_seconds: timer_skel.default_duration_seconds ?? 60,
+          },
+        });
+      }
+
+      for (const vs_skel of eventType.visible_state_skeleton) {
+        await ctx.db.visibleState.create({
+          data: {
+            event: { connect: { id: event.id } },
+            path: vs_skel.path,
+            name: vs_skel.name,
+            visible: vs_skel.default_visible ?? false,
+          },
+        });
+      }
+
+      for (const society_skel of eventType.society_skeleton) {
+        await ctx.db.society.create({
+          data: {
+            event: { connect: { id: event.id } },
+            path: society_skel.path,
+            name: society_skel.name,
+          },
+        });
+      }
+
       serverGlobals.io.emit("update:events");
     }),
 
@@ -115,6 +150,8 @@ export const eventsRouter = createTRPCRouter({
               },
             },
           },
+          timers: true,
+          visible_states: true,
         },
       });
     }),
@@ -137,6 +174,9 @@ export const eventsRouter = createTRPCRouter({
               options: true,
             },
           },
+          timers: true,
+          visible_states: true,
+          societies: true,
         },
       });
     }),

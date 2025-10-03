@@ -1,12 +1,16 @@
 import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
-import { fullscreenRouter } from "./routers/fullscreen";
-import { questionRouter } from "./routers/question";
-import { outputRouter } from "./routers/output";
-import { ydcRouter } from "./routers/ydc";
-import { obsRouter } from "./routers/obs";
-import { eventTypesRouter } from "./routers/eventTypes";
 import { eventsRouter } from "./routers/events";
+import { eventTypesRouter } from "./routers/eventTypes";
+import { fullscreenRouter } from "./routers/fullscreen";
 import { mtOptionsRouter } from "./routers/mtOptions";
+import { multiTextsRouter } from "./routers/multiTexts";
+import { obsRouter } from "./routers/obs";
+import { outputRouter } from "./routers/output";
+import { questionRouter } from "./routers/question";
+import { timersRouter } from "./routers/timers";
+import { visibleStatesRouter } from "./routers/visibleStates";
+import { ydcRouter } from "./routers/ydc";
+import { societiesRouter } from "./routers/societies";
 
 /**
  * This is the primary router for your server.
@@ -14,13 +18,17 @@ import { mtOptionsRouter } from "./routers/mtOptions";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
-  eventTypes: eventTypesRouter,
   events: eventsRouter,
+  eventTypes: eventTypesRouter,
   fullscreen: fullscreenRouter,
   mtOptions: mtOptionsRouter,
-  question: questionRouter,
+  multiTexts: multiTextsRouter,
   obs: obsRouter,
   output: outputRouter,
+  question: questionRouter,
+  societies: societiesRouter,
+  timers: timersRouter,
+  visibleState: visibleStatesRouter,
   ydc: ydcRouter,
 });
 
