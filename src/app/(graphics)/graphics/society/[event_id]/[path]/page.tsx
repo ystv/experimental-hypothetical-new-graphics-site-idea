@@ -1,13 +1,28 @@
 "use client";
 
 import SocietyStateWrapper from "@/app/_components/graphics/society-data-wrapper";
+import { useVisibleState } from "@/app/_components/graphics/visible-state-wrapper";
+import { animate, motion } from "framer-motion";
 import Image from "next/image";
-import { use } from "react";
+import { use, useEffect, useRef } from "react";
 
 export default function OverlayPage(props: {
   params: Promise<{ event_id: string; path: string }>;
 }) {
   const awaitedParams = use(props.params);
+
+  const visible = useVisibleState("society_overlay", awaitedParams.event_id);
+
+  const mainRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!mainRef.current) return;
+    if (visible) {
+      animate([[mainRef.current, { bottom: 50 }]]);
+    } else {
+      animate([[mainRef.current, { bottom: -150 }]]);
+    }
+  }, [visible, mainRef]);
 
   return (
     <SocietyStateWrapper
@@ -16,7 +31,8 @@ export default function OverlayPage(props: {
     >
       {(state) =>
         state?.societyData && (
-          <div
+          <motion.div
+            ref={mainRef}
             style={{
               height: "150px",
               width: "fit-content",
@@ -71,7 +87,7 @@ export default function OverlayPage(props: {
                   : state.societyData.email_address}
               </div>
             </div>
-          </div>
+          </motion.div>
         )
       }
     </SocietyStateWrapper>

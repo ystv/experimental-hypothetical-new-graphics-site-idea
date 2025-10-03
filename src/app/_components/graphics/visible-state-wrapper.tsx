@@ -10,9 +10,15 @@ export default function VisibleStateWrapper(props: {
   duration?: number;
   children: (state: boolean) => React.ReactNode;
 }) {
+  const state = useVisibleState(props.path, props.event_id);
+
+  return props.children(state);
+}
+
+export function useVisibleState(path: string, event_id_in?: string) {
   const event = useEvent();
 
-  const event_id = props.event_id ?? event?.id;
+  const event_id = event_id_in ?? event?.id;
 
   if (!event_id) {
     throw new Error("No event_id or event context provided");
@@ -20,8 +26,8 @@ export default function VisibleStateWrapper(props: {
 
   const visibleStateData = api.visibleState.read.useQuery(
     {
-      event_id: props.event_id ?? event!.id,
-      path: props.path,
+      event_id: event_id,
+      path: path,
     },
     {
       refetchInterval: 1000 * 60,
@@ -34,20 +40,15 @@ export default function VisibleStateWrapper(props: {
     setVisible(visibleStateData.data?.visible);
   }, [visibleStateData.data?.visible]);
 
-  useSocketTriggeredFunction(
-    `update:state:${event_id}:${props.path}`,
-    (data) => {
-      const visibleData = z.object({ visible: z.boolean() }).parse(data);
+  useSocketTriggeredFunction(`update:state:${event_id}:${path}`, (data) => {
+    const visibleData = z.object({ visible: z.boolean() }).parse(data);
 
-      setVisible(visibleData.visible);
+    setVisible(visibleData.visible);
 
-      visibleStateData
-        .refetch()
-        .catch(() => console.log("Failed to update visible state"));
-    },
-  );
+    visibleStateData
+      .refetch()
+      .catch(() => console.log("Failed to update visible state"));
+  });
 
-  if (!visibleStateData.data) return <></>;
-
-  return props.children(visible ?? false);
+  return visible ?? false;
 }
