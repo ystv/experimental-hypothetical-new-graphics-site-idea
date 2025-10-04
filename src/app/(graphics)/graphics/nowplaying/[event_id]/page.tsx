@@ -8,6 +8,7 @@ import { use } from "react";
 
 import styles from './nowplaying.module.css';
 import MultiText from "@/app/_components/graphics/multi-text";
+import SocietyStateWrapper from "@/app/_components/graphics/society-data-wrapper";
 
 export default function LowerThirdPage({
   params,
@@ -54,12 +55,18 @@ export default function LowerThirdPage({
                   transition: { duration: 1 },
                 }}
               >
-                <motion.img
-                  src='https://sums-data-public.sums.su/YU/group-thumbnails/140/0IAoMLGtWZBC.png' // TODO
-                  width={224}
-                  height={224}
-                  className={styles.societyLogo}
-                />
+                <SocietyStateWrapper path='society'>
+                  {(society) => society.societyData ? (
+                    <motion.img
+                      src={society.societyData.thumbnail_url ?? undefined}
+                      width={224}
+                      height={224}
+                      className={styles.societyLogo}
+                    />
+                  ) : (
+                    <motion.img width={224} height={224} className={styles.societyLogo} />
+                  )}
+                </SocietyStateWrapper>
 
                 <div>
                   <MultiText event_id={event.data?.id} path="title">
