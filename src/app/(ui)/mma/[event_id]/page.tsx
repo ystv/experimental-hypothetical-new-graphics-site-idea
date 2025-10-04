@@ -11,10 +11,6 @@ export default function MMAPage({
 }) {
   const awaitedParams = use(params);
 
-  const event = api.events.getPrivateState.useQuery({
-    event_id: awaitedParams.event_id,
-  });
-
   const toggleMMAVisibility = api.visibleState.toggle.useMutation();
   return (
     <Button

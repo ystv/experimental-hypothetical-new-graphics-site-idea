@@ -41,6 +41,7 @@ export default function TimerWrapper(props: {
       const newExpiry = new Date(timerQuery.data.ends_at);
       timer.restart(newExpiry, true);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timerQuery.data]);
 
   return props.children(timer);

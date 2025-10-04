@@ -1,15 +1,6 @@
 "use client";
 
-import Layer from "@/app/_components/graphics/layer";
-import Image from "next/image";
-import {
-  use,
-  useEffect,
-  type DetailedHTMLProps,
-  type HTMLAttributes,
-} from "react";
-import { useTimer } from "react-timer-hook";
-import { useWebsocket } from "@/app/_components/websocket-provider";
+import { use } from "react";
 import MultiText from "@/app/_components/graphics/multi-text";
 import { EventProvider } from "@/app/_components/event-provider";
 import { api } from "@/trpc/react";
@@ -26,15 +17,6 @@ export default function LowerThirdPage({
 
   const event = api.events.getPrivateState.useQuery({
     event_id: awaitedParams.event_id,
-  });
-
-  const time = new Date();
-
-  time.setSeconds(time.getSeconds() + 300);
-
-  const { minutes, seconds } = useTimer({
-    expiryTimestamp: time,
-    autoStart: true,
   });
 
   const borderRadius = "15px";

@@ -8,11 +8,14 @@ import {
   Title,
   Tooltip,
 } from "@mantine/core";
-import { ArrayPath, FieldValues, useFieldArray } from "react-hook-form";
+import {
+  type ArrayPath,
+  type FieldValues,
+  useFieldArray,
+} from "react-hook-form";
 import { TextField } from "./text";
 import { useRef, useState } from "react";
 import { FaTrash } from "react-icons/fa";
-import { set } from "zod";
 
 export function NamePathArrayField(props: { name: string; label?: string }) {
   interface TFieldValues extends FieldValues {
