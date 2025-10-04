@@ -63,6 +63,31 @@ export const mtOptionsRouter = createTRPCRouter({
       );
     }),
 
+  deselect: protectedProcedure
+    .input(z.object({
+      multi_text_id: z.string().cuid(),
+    }))
+    .mutation(async ({ ctx, input }) => {
+      await ctx.db.multiTextSelected.delete({
+        where: {
+          multi_text_id: input.multi_text_id,
+        },
+      });
+      const res = await ctx.db.multiText.findFirstOrThrow({
+        where: {
+          id: input.multi_text_id,
+        },
+        select: {
+          event: true,
+          path: true,
+        }
+      });
+      serverGlobals.io.emit(`update:event:${res.event.id}`);
+      serverGlobals.io.emit(
+        `update:multi_text:${res.event.id}:${res.path}`,
+      );
+    }),
+
   update: protectedProcedure
     .input(schemas.mtOptions.update.input)
     .mutation(async ({ ctx, input }) => {
