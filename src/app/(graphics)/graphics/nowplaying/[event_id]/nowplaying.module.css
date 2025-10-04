@@ -1,0 +1,30 @@
+.root {
+    box-sizing: border-box;
+    position: absolute;
+    height: 256px;
+    bottom: 32px;
+    background-color: white;
+    border-radius: 128px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    overflow: hidden;
+    gap: 16px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.root h1 {
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+.root p {
+    margin: 0;
+}
+
+.societyLogo {
+    border-radius: 50%;
+    opacity: 1;
+}
