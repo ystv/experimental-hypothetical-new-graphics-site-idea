@@ -8,7 +8,7 @@ import {
 import { serverGlobals } from "@/server/socket";
 
 export const visibleStatesRouter = createTRPCRouter({
-  toggle: protectedProcedure
+  toggle: publicProcedure
     .input(z.object({ event_id: z.string().cuid(), path: z.string() }))
     .mutation(async ({ ctx, input }) => {
       const current = await ctx.db.visibleState.findFirstOrThrow({
@@ -48,7 +48,7 @@ export const visibleStatesRouter = createTRPCRouter({
       });
     }),
 
-  show: protectedProcedure
+  show: publicProcedure
     .input(z.object({ event_id: z.string().cuid(), path: z.string() }))
     .mutation(async ({ ctx, input }) => {
       await ctx.db.visibleState.update({
@@ -70,7 +70,7 @@ export const visibleStatesRouter = createTRPCRouter({
       });
     }),
 
-  hide: protectedProcedure
+  hide: publicProcedure
     .input(z.object({ event_id: z.string().cuid(), path: z.string() }))
     .mutation(async ({ ctx, input }) => {
       await ctx.db.visibleState.update({
