@@ -1,4 +1,3 @@
-import { output } from "next.config.build";
 import { z } from "zod";
 
 const list = {

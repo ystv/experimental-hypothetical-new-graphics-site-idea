@@ -2,8 +2,8 @@ import { useSocketTriggeredFunction } from "@/lib/socket/wrapper";
 import { api } from "@/trpc/react";
 import { useEvent } from "../event-provider";
 import React from "react";
-import { z } from "zod";
-import { schemas } from "@/server/api/schemas";
+import { type z } from "zod";
+import { type schemas } from "@/server/api/schemas";
 
 export default function SocietyStateWrapper(props: {
   path: string;

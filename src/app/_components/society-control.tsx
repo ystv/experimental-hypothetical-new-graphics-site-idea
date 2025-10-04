@@ -18,7 +18,6 @@ import {
 import { useDebouncedState, useDisclosure } from "@mantine/hooks";
 import Image from "next/image";
 import SocietyStateWrapper from "./graphics/society-data-wrapper";
-import { B } from "obs-websocket-js/dist/base-DKN2XRg2";
 import { FaCheck } from "react-icons/fa";
 
 export function SocietyControl(props: { event_id: string; path: string }) {
