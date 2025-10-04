@@ -23,7 +23,7 @@ export default function MultiText(props: {
   });
 
   useEffect(() => {
-    multiTextData.refetch();
+    multiTextData.refetch().catch((e) => console.error("Failed to update multitext", e));
   }, [props.event_id, props.path])
 
   useSocketTriggeredFunction(
@@ -31,7 +31,7 @@ export default function MultiText(props: {
     () => {
       multiTextData
         .refetch()
-        .catch(() => console.log("Failed to update timer"));
+        .catch((e) => console.error("Failed to update multitext", e));
     },
   );
 
