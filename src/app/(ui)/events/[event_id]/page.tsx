@@ -159,7 +159,7 @@ export default function SingleEventPage({
   >();
 
   const selectMtOption = api.mtOptions.select.useMutation();
-  const deselectMtOption = api.mtOptions.deselect.useMutation();
+  const deselectMtOption = api.multiTexts.clear.useMutation();
 
   if (!event.data) {
     return (
@@ -222,9 +222,11 @@ export default function SingleEventPage({
                   Add Option
                 </Button>
                 <Button
-                  onClick={() => deselectMtOption.mutate({
-                    multi_text_id: mt.id,
-                  })}
+                  onClick={() =>
+                    deselectMtOption.mutate({
+                      multi_text_id: mt.id,
+                    })
+                  }
                   disabled={mt.multi_text_selected === null}
                 >
                   Deselect
