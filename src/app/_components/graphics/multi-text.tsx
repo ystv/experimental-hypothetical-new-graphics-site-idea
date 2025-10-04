@@ -2,7 +2,7 @@ import { useSocketTriggeredFunction } from "@/lib/socket/wrapper";
 import { api } from "@/trpc/react";
 import { useEvent } from "../event-provider";
 import { type MultiTextOption } from "@prisma/client";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function MultiText(props: {
   path: string;
@@ -22,12 +22,16 @@ export default function MultiText(props: {
     path: props.path,
   });
 
+  useEffect(() => {
+    multiTextData.refetch().catch((e) => console.error("Failed to update multitext", e));
+  }, [props.event_id, props.path])
+
   useSocketTriggeredFunction(
     `update:multi_text:${event_id}:${props.path}`,
     () => {
       multiTextData
         .refetch()
-        .catch(() => console.log("Failed to update timer"));
+        .catch((e) => console.error("Failed to update multitext", e));
     },
   );
 

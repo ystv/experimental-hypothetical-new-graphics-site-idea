@@ -21,6 +21,7 @@ import {
   Title,
 } from "@mantine/core";
 import { use, useEffect, useState } from "react";
+import { FaTrash } from "react-icons/fa";
 
 function CreateMultiTextOptionForm(props: {
   onSuccess: () => void;
@@ -159,6 +160,7 @@ export default function SingleEventPage({
   >();
 
   const selectMtOption = api.mtOptions.select.useMutation();
+  const deselectMtOption = api.multiTexts.clear.useMutation();
 
   if (!event.data) {
     return (
@@ -220,6 +222,18 @@ export default function SingleEventPage({
                 >
                   Add Option
                 </Button>
+                <Button
+                  onClick={() =>
+                    deselectMtOption.mutate({
+                      multi_text_id: mt.id,
+                    })
+                  }
+                  color="red"
+                  leftSection={<FaTrash />}
+                  disabled={mt.multi_text_selected === null}
+                >
+                  Deselect
+                </Button>
               </Group>
               <Stack>
                 <Table striped>
@@ -230,6 +244,8 @@ export default function SingleEventPage({
                   </Table.Thead>
                   <Table.Tbody>
                     {mt.options.map((opt) => {
+                      const isSelectedOption =
+                        mt.multi_text_selected?.selected_option_id === opt.id;
                       return (
                         <Table.Tr key={opt.id}>
                           <Modal
@@ -255,12 +271,9 @@ export default function SingleEventPage({
                                     option_id: opt.id,
                                   })
                                 }
-                                disabled={
-                                  mt.multi_text_selected?.selected_option_id ===
-                                  opt.id
-                                }
+                                disabled={isSelectedOption}
                               >
-                                Select
+                                {isSelectedOption ? "Selected" : "Select"}
                               </Button>
                               <Button
                                 onClick={() => setMtOptionUpdating(opt.id)}
