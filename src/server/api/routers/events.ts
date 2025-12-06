@@ -8,86 +8,89 @@ import {
 import { TRPCError } from "@trpc/server";
 import { serverGlobals } from "@/server/socket";
 import { type EventType } from "@prisma/client";
+import { schemas } from "../schemas";
+import {
+  GraphicsCollections,
+  TGraphicsCollection,
+  TGraphicsCollectionPath,
+  flattenRecord,
+} from "@/lib/graphics";
 
 export const eventsRouter = createTRPCRouter({
   create: protectedProcedure
-    .input(
-      z.object({ event_type_id: z.string().cuid(), name: z.string().min(1) }),
-    )
+    .input(schemas.events.create.input)
     .mutation(async ({ ctx, input }) => {
-      let eventType: EventType;
-
-      try {
-        eventType = await ctx.db.eventType.findUniqueOrThrow({
-          where: {
-            id: input.event_type_id,
-          },
-        });
-      } catch (_e) {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-        });
-      }
-
       const event = await ctx.db.event.create({
         data: {
           name: input.name,
-          type: {
-            connect: { id: eventType.id },
-          },
         },
       });
 
-      for (const multi_text_skel of eventType.multi_text_skeleton) {
-        const skelRes = await ctx.db.multiText.create({
+      const multiTexts = new Set<string>();
+      const timers = new Set<string>();
+      const visibileStates = new Set<string>();
+      const societies = new Set<string>();
+
+      for (const inputCollection of input.collections) {
+        await ctx.db.eventGraphicsCollection.create({
           data: {
+            collection_slug: inputCollection.collectionSlug,
             event: { connect: { id: event.id } },
-            path: multi_text_skel.path,
-            name: multi_text_skel.name,
+            path_mapping: inputCollection.mapping,
           },
         });
 
-        for (const skel_opt of multi_text_skel.default_options ?? []) {
-          await ctx.db.multiTextOption.create({
-            data: {
-              multi_text: { connect: { id: skelRes.id } },
-              content: skel_opt,
-            },
-          });
-        }
+        flattenRecord(inputCollection.mapping.multi_texts).map((mt) => {
+          multiTexts.add(mt.key);
+        });
+        flattenRecord(inputCollection.mapping.timers).map((timer) => {
+          timers.add(timer.key);
+        });
+        flattenRecord(inputCollection.mapping.visible_states).map((vs) => {
+          visibileStates.add(vs.key);
+        });
+        flattenRecord(inputCollection.mapping.societies).map((soc) => {
+          societies.add(soc.key);
+        });
       }
 
-      for (const timer_skel of eventType.timer_skeleton) {
+      for (const mtPath of multiTexts) {
+        await ctx.db.multiText.create({
+          data: {
+            event: { connect: { id: event.id } },
+            path: mtPath,
+          },
+        });
+      }
+
+      for (const tmPath of timers) {
         await ctx.db.timer.create({
           data: {
             event: { connect: { id: event.id } },
-            path: timer_skel.path,
-            name: timer_skel.name,
-            duration_seconds: timer_skel.default_duration_seconds ?? 60,
+            path: tmPath,
+            duration_seconds: 60,
             ends_at: new Date(Date.now() + 60000),
             paused: true,
-            paused_at_seconds: timer_skel.default_duration_seconds ?? 60,
+            paused_at_seconds: 60,
           },
         });
       }
 
-      for (const vs_skel of eventType.visible_state_skeleton) {
+      for (const vsPath of visibileStates) {
         await ctx.db.visibleState.create({
           data: {
             event: { connect: { id: event.id } },
-            path: vs_skel.path,
-            name: vs_skel.name,
-            visible: vs_skel.default_visible ?? false,
+            path: vsPath,
+            visible: false,
           },
         });
       }
 
-      for (const society_skel of eventType.society_skeleton) {
+      for (const socPath of societies) {
         await ctx.db.society.create({
           data: {
             event: { connect: { id: event.id } },
-            path: society_skel.path,
-            name: society_skel.name,
+            path: socPath,
           },
         });
       }
@@ -164,6 +167,7 @@ export const eventsRouter = createTRPCRouter({
           id: input.event_id,
         },
         include: {
+          graphics_collections: true,
           multi_texts: {
             include: {
               multi_text_selected: {
@@ -177,6 +181,8 @@ export const eventsRouter = createTRPCRouter({
           timers: true,
           visible_states: true,
           societies: true,
+          active_cue: true,
+          cues: true,
         },
       });
     }),

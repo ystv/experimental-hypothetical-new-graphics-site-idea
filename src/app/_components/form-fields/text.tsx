@@ -1,4 +1,5 @@
 import { TextInput } from "@mantine/core";
+import { useEffect } from "react";
 import { useFormContext } from "react-hook-form";
 
 export function TextField(props: {
@@ -8,6 +9,7 @@ export function TextField(props: {
   required?: boolean;
 }) {
   const ctx = useFormContext();
+
   return (
     <TextInput
       {...ctx.register(props.name)}

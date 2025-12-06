@@ -11,6 +11,7 @@ import { timersRouter } from "./routers/timers";
 import { visibleStatesRouter } from "./routers/visibleStates";
 import { ydcRouter } from "./routers/ydc";
 import { societiesRouter } from "./routers/societies";
+import { graphicsCollectionsRouter } from "./routers/graphicsCollections";
 
 /**
  * This is the primary router for your server.
@@ -21,6 +22,7 @@ export const appRouter = createTRPCRouter({
   events: eventsRouter,
   eventTypes: eventTypesRouter,
   fullscreen: fullscreenRouter,
+  graphicsCollections: graphicsCollectionsRouter,
   mtOptions: mtOptionsRouter,
   multiTexts: multiTextsRouter,
   obs: obsRouter,

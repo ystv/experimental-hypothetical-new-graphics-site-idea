@@ -1,3 +1,4 @@
+import { TGraphicsCollectionMappedPath } from "@/lib/graphics";
 import type { DetailedHTMLProps, HTMLAttributes } from "react";
 
 declare global {
@@ -29,5 +30,12 @@ declare global {
       name?: string;
       path: string;
     }[];
+
+    type EventGraphicsCollectionMapping = {
+      multi_texts?: Record<string, TGraphicsCollectionMappedPath>;
+      timers?: Record<string, TGraphicsCollectionMappedPath>;
+      visible_states?: Record<string, TGraphicsCollectionMappedPath>;
+      societies?: Record<string, TGraphicsCollectionMappedPath>;
+    };
   }
 }

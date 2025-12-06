@@ -110,8 +110,15 @@ model Event {
 
   name String
 
-  type_id String
-  type    EventType @relation(fields: [type_id], references: [id])
+  type_id String?
+  type    EventType? @relation(fields: [type_id], references: [id])
+
+  graphics_collections EventGraphicsCollection[]
+
+  active_cue_id String? @unique
+  active_cue Cue? @relation(name: "active_event_cue", fields: [active_cue_id], references: [id])
+
+  cues Cue[]
 
   multi_texts MultiText[]
   timers Timer[]
@@ -122,6 +129,21 @@ model Event {
   updated_at DateTime @updatedAt()
 
   @@map("events")
+}
+
+model EventGraphicsCollection {
+  id String @id @default(cuid())
+
+  name String?
+  event_id String
+  collection_slug String
+
+  event Event @relation(fields: [event_id], references: [id])
+
+  /// [EventGraphicsCollectionMapping]
+  path_mapping Json @default("{}")
+
+  @@map("event_graphics_collection")
 }
 
 model MultiText {
@@ -213,6 +235,21 @@ model Society {
 
   @@unique([event_id, path])
   @@map("societies")
+}
+
+model Cue {
+  id String @id @default(cuid())
+
+  label String?
+
+  number Int
+
+  is_active Event? @relation(name: "active_event_cue")
+
+  event_id String
+  event Event @relation(fields: [event_id], references: [id])
+
+  @@map("cues")
 }
 
 model Post {

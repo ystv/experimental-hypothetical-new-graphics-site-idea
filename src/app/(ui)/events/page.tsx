@@ -1,18 +1,28 @@
 "use client";
 
 import { Form, SelectField } from "@/app/_components/form";
+import { GraphicsCollectionsField } from "@/app/_components/form-fields/graphics-collections";
 import { TextField } from "@/app/_components/form-fields/text";
 import { useWebsocket } from "@/app/_components/websocket-provider";
+import { getGraphicsCollections } from "@/lib/graphics";
 import { schemas } from "@/server/api/schemas";
 import { api } from "@/trpc/react";
-import { Button, Card, Group, Modal, Stack, Title } from "@mantine/core";
+import {
+  Button,
+  Card,
+  Divider,
+  Group,
+  Modal,
+  Space,
+  Stack,
+  Text,
+  Title,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import Link from "next/link";
 import { useEffect } from "react";
 
 function CreateEventForm(props: { onSuccess: () => void }) {
-  const eventTypes = api.eventTypes.readMany.useQuery();
-
   const createEvent = api.events.create.useMutation();
 
   return (
@@ -48,24 +58,13 @@ function CreateEventForm(props: { onSuccess: () => void }) {
         placeholder="MMA Fight Night 2025"
         required
       />
-      {eventTypes.data && (
-        <SelectField
-          name="event_type_id"
-          options={eventTypes.data}
-          renderOption={(event_type) => event_type.name}
-          getOptionValue={(event_type) => event_type.id}
-          filter={(event_type, filter) =>
-            event_type.name.toLowerCase().includes(filter.toLowerCase())
-          }
-          label="Event Type"
-          required
-        />
-      )}
+      <Space h="md" />
+      <GraphicsCollectionsField name="collections" label="Collections" />
     </Form>
   );
 }
 
-export default function EventTypesPage() {
+export default function EventsPage() {
   const events = api.events.readMany.useQuery();
 
   const { socket } = useWebsocket();
@@ -89,7 +88,15 @@ export default function EventTypesPage() {
 
   return (
     <Stack>
-      <Modal opened={createModalOpened} onClose={closeCreateModal}>
+      {getGraphicsCollections().map((graphicsCollection) => {
+        return (
+          <Text key={graphicsCollection.key}>
+            {graphicsCollection.key}: {graphicsCollection.value.slug}
+          </Text>
+        );
+      })}
+      <Divider />
+      <Modal opened={createModalOpened} onClose={closeCreateModal} size={"xl"}>
         <CreateEventForm onSuccess={closeCreateModal} />
       </Modal>
       <Button onClick={openCreateModal} mr={"auto"}>
