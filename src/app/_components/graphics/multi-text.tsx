@@ -1,3 +1,5 @@
+"use client";
+
 import { useSocketTriggeredFunction } from "@/lib/socket/wrapper";
 import { api } from "@/trpc/react";
 import { useEvent } from "../event-provider";
@@ -23,8 +25,10 @@ export default function MultiText(props: {
   });
 
   useEffect(() => {
-    multiTextData.refetch().catch((e) => console.error("Failed to update multitext", e));
-  }, [props.event_id, props.path])
+    multiTextData
+      .refetch()
+      .catch((e) => console.error("Failed to update multitext", e));
+  }, [props.event_id, props.path]);
 
   useSocketTriggeredFunction(
     `update:multi_text:${event_id}:${props.path}`,

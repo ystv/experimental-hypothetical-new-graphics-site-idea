@@ -1,3 +1,5 @@
+"use client";
+
 import { useSocketTriggeredFunction } from "@/lib/socket/wrapper";
 import { api } from "@/trpc/react";
 import { useEvent } from "../event-provider";

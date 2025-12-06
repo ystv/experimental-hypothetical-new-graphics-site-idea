@@ -35,8 +35,8 @@ export default function RootLayout({
         <div
           style={{
             backgroundColor: "rgba(0,0,0,0)",
-            height: "100vh",
-            width: "100vw",
+            height: "1080px",
+            width: "1920px",
             margin: 0,
           }}
         >
