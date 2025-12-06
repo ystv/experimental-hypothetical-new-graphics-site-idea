@@ -112,7 +112,7 @@ export const timersRouter = createTRPCRouter({
         },
         data: {
           paused: true,
-          paused_at_seconds: timer.duration_seconds,
+          paused_at_seconds: input.duration_seconds ?? timer.duration_seconds,
           ends_at: new Date(),
         },
       });

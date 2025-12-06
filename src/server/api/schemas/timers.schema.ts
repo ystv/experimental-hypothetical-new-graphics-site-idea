@@ -25,6 +25,7 @@ const reset = {
   input: z.object({
     event_id: z.string().cuid(),
     path: z.string(),
+    duration_seconds: z.number().optional(),
   }),
 };
 
