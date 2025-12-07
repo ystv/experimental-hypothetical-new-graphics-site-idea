@@ -9,25 +9,32 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
-
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "checkJs": true,
-
     /* Bundled projects */
-    "lib": ["dom", "dom.iterable", "ESNext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ESNext"
+    ],
     "noEmit": true,
     "module": "ESNext",
     "moduleResolution": "node",
-    "jsx": "preserve",
-    "plugins": [{ "name": "next" }],
+    "jsx": "react-jsx",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
     "incremental": true,
-
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
@@ -38,9 +45,16 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts",
-    "prisma/types.d.ts"
+    "prisma/types.d.ts",
+    ".next/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "dist", ".next", "out", "next.config.js"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".next",
+    "out",
+    "next.config.js"
+  ],
   "ts-node": {
     "transpileOnly": true,
     "compilerOptions": {
